@@ -1,0 +1,23 @@
+
+
+to wiggle
+  right 45 - (random 90)
+end
+
+
+
+to-report nearest-of [#breed]
+  report min-one-of #breed [distance myself]
+end
+
+
+
+to-report trigger [#prob]
+  report (random 100) < #prob
+end
+
+
+to-report mutate [#val #mu]
+  let #mutator (random (#mu * 2 + 1)) - #mu
+  report (#val + #mutator)
+end
