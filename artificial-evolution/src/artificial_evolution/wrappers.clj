@@ -15,6 +15,11 @@
 ;___ active socket is used as a global _____________
 (def shrdlu-comms false)
 
+(defn startup [port]
+
+  (set-shrdlu-comms port)
+
+  )
 
 
 (defn startup-server
