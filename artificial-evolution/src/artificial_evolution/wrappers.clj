@@ -1,4 +1,4 @@
-;(ns pussher.wrappers)
+(ns artificial-evolution.wrappers)
 (require '[clojure.set :refer :all])
 (require '[clojure.string :as str])
 (require '[clojure.pprint :refer :all])
@@ -15,11 +15,6 @@
 ;___ active socket is used as a global _____________
 (def shrdlu-comms false)
 
-(defn startup [port]
-
-  (set-shrdlu-comms port)
-
-  )
 
 
 (defn startup-server
@@ -62,6 +57,13 @@
 (
   defn set-shrdlu-comms [port]
   (def shrdlu-comms (startup-server port)))
+
+(defn startup [port]
+
+  (set-shrdlu-comms port)
+
+  )
+
 
 (defn nlogo-send [txt]
   ;(println '** (and shrdlu-comms true) txt)
