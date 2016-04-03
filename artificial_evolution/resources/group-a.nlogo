@@ -165,10 +165,10 @@ to move-rabbits
     wiggle
     car-crash
     forward speed
-    attracted-road
+   ; attracted-road
     ;; first input is probability to reproduce
     ;; second input is energy required to give birth
-    reproduce 50  3
+  ;  reproduce 50  3
   ]
 end
 
@@ -210,7 +210,9 @@ to car-crash
     [
       if random 100 < death-probability
       [
-
+        output-print (word "Clojure Sent: ""id: "id " speed: " speed " color: "color)
+        output-print (word id ":" speed ":"color)
+      exec.repl2 (word "\""id ":" speed ":"color"\"")
       die
       ]
     ]

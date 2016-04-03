@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c126656f-685a-4cf5-8bc6-8187f68c28d5" name="Default" comment="" />
+    <list default="true" id="c126656f-685a-4cf5-8bc6-8187f68c28d5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artificial_evolution.iml" afterPath="$PROJECT_DIR$/artificial_evolution.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/group-a.nlogo" afterPath="$PROJECT_DIR$/resources/group-a.nlogo" />
+    </list>
     <ignored path="artificial_evolution.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +29,8 @@
       <file leaf-file-name="wrapper.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/comm/wrapper.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state relative-caret-position="25">
+              <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="92" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -54,9 +59,12 @@
       <file leaf-file-name="agents.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/agents/agents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="462">
               <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding />
+              <folding>
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,7 +72,7 @@
       <file leaf-file-name="translater.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/comm/translater.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="264">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
@@ -74,7 +82,7 @@
       <file leaf-file-name="definitions.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dna/definitions.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="1540">
               <caret line="70" column="3" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
               <folding>
                 <element signature="e#107#329#0" expanded="false" />
@@ -93,6 +101,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -125,14 +136,14 @@
     <option name="width" value="1938" />
     <option name="height" value="1060" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -150,7 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -261,16 +272,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Experments/helpme" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_25d850739bc178b2eb13c3e2a9faafea2f9143c0/cmd/git.exe" />
   </component>
-  <component name="ReplState" timestamp="1459647646795">{:repl-history {:ide [], :local [&quot;(str-int mygean1)&quot; &quot;(loop [x 12]\n  (when (&gt; x 1)\n    (def mygean1\n      (str mygean1 (rand-int 2))\n      )\n    (recur (- x 1))))&quot; &quot;(loop [x 12]\n  (when (&gt; x 1)\n    \n      (str mygean1 (rand-int 2))\n      \n    (recur (- x 1))))&quot; &quot;(def mygean1 \&quot;101010001010101010\&quot;)&quot; &quot;(gen-gean 12)&quot; &quot;mygean1&quot; &quot;(nlogo-send mygean1)&quot; &quot;(def agent1 \&quot;(setup-rabbits1 0.1 blue 123\&quot;)&quot; &quot;(def agent1 \&quot;(setup-rabbits1 0.1 blue 123)\&quot;)&quot; &quot;(def agent1 \&quot;(setup-rabbits1 0.1 red 123)\&quot;)&quot; &quot;(nlogo-send agent1)&quot; &quot;(assoc test-map :key3 3)&quot; &quot;(test-map)&quot; &quot;(def test-map (assoc test-map :key3 3))&quot; &quot;test-map&quot; &quot;(def food [:ice-cream :steak :apple])&quot; &quot;(rand-nth food)&quot; &quot;(rand-nth test-map)&quot; &quot;(rand-int test-map)&quot; &quot;(def test-m {:1 one :2 two :3 three})&quot; &quot;(def test-map {:key1 1 :key2 2})&quot; &quot;(get test-map (rand-nth (keys test-map)))&quot; &quot;(def colour_name\n  {:0000 \&quot;gray\&quot;\n   :0001 \&quot;red\&quot;\n   :0010 \&quot;orange\&quot;\n   :0011 \&quot;brown\&quot;\n   :0100 \&quot;yellow\&quot;\n   :0101 \&quot;green\&quot;\n   :0110 \&quot;lime\&quot;\n   :0111 \&quot;turquoise\&quot;\n   :1000 \&quot;cyan\&quot;\n   :1001 \&quot;sky\&quot;\n   :1010 \&quot;blue\&quot;\n   :1011 \&quot;violet\&quot;\n   :1100 \&quot;magenta\&quot;\n   :1101 \&quot;pink\&quot;\n   :1110 \&quot;black\&quot;\n   :1111 \&quot;white\&quot;\n   })\n&quot; &quot;(rand-nth (vec colour_name))&quot; &quot;agent1&quot; &quot;(rand-nth (vec speed))&quot; &quot;(ns dna.definitions)&quot; &quot;(rest (new-gean-list 3))&quot; &quot;(get geans-list 0)&quot; &quot;(get geans-list 1)&quot; &quot;(rest geans-list)&quot; &quot;(map (rest geans-list) (rest (rest (new-gean-list 4))))&quot; &quot;(rest (rest (new-gean-list 4)))&quot; &quot;(speed :0010)&quot; &quot;(speed (rest (rest (new-gean-list 3))))&quot; &quot;(map println (rest (new-gean-list 3)))&quot; &quot;(map println geans-list)&quot; &quot;(colour_name :0101)&quot; &quot;(map (first geans-list) (rest (rest (new-gean-list 4))))&quot; &quot;(my-fun (first geans-list) (rest (rest (new-gean-list 3))))&quot; &quot;(rest (rest (new-gean-list 3)))&quot; &quot;(speed :0000)&quot; &quot;(my-fun (first geans-list) (rest (new-gean-list 3)))&quot; &quot;(my-fun geans-list (rest (new-gean-list3)))&quot; &quot;(colour :0101)&quot; &quot;(my-fun speed :0001)&quot; &quot;(my-fun geans-list (rest (new-gean-list 3)))&quot; &quot;(my-fun (rest geans-list) (rest (rest (new-gean-list 3))))&quot; &quot;(speed :0001)&quot; &quot;(my-fun (first geans-list) (first (last (new-gean-list 3))))&quot; &quot;(first (last (new-gean-list 3)))&quot; &quot;(last (last (new-gean-list 3)))&quot; &quot;(my-fun (first geans-list) (first (rest (new-gean-list 3))))&quot; &quot;(my-fun speed :1011)&quot; &quot;(translate (new-gean-list 2))&quot; &quot;(new-gean-list 3)&quot; &quot;(my-fun speed :1010)&quot; &quot;(my-fun speed :0010)&quot; &quot;(doall (map my-fun speed (rest (new-gean-list 3))))&quot; &quot;(my-fun speed :0101)&quot; &quot;(doall (map my-fun geans-list y))&quot; &quot;(doall (map my-fun geans-list (rest (new-gean-list 3))))&quot; &quot;(doall (map my-fun (rest (new-gean-list 3)) :1010))&quot; &quot;(doall (map my-fun (rest (new-gean-list 3)) '(speed)))&quot; &quot;(doall (map my-fun (rest (new-gean-list 3)) speed))&quot; &quot;(my-fun (rest (new-gean-list 4)) speed) &quot; &quot;(my-fun (new-gean-list 4) speed) &quot; &quot;(my-fun :0101 speed) &quot; &quot;(doall (map class geans-list))&quot; &quot;(class (first (geans-list)))&quot; &quot;(class (last (geans-list)))&quot; &quot;(doall (map my-fun (rest (new-gean-list 3)) geans-list))&quot; &quot;(geans-list)&quot; &quot;geans-list&quot; &quot;(first geans-list)&quot; &quot;(class speed)&quot; &quot;(class (first geans-list))&quot; &quot;(rtn-speed :1010 speed)&quot; &quot;(rtn-speed (rest (new-gean-list 3)) geans-list)&quot; &quot;(def geans-list1 '(speed colour))&quot; &quot;(rtn-speed (rest (new-gean-list 3)) geans-list1)&quot; &quot;(translate (new-gean-list 3))&quot; &quot;(nlogo-send (translate (new-gean-list 3)))&quot; &quot;(creat-rabbits 30)&quot; &quot;(println (translate (new-gean-list x)))&quot; &quot;(println (translate (new-gean-list 1)))&quot; &quot;(println (translate (new-gean-list 3)))&quot; &quot;(loop [x 10]\n  (when (&gt; x 1)\n    (println x)\n    (recur (- x 2))))&quot; &quot;(crt-rabbits 23)&quot; &quot;(nlogo-send-exec 10)&quot; &quot;(nlogo-send-exec 20)&quot; &quot;(str \&quot;finrepl \&quot; (- 20 1))&quot; &quot;(startup 2225)&quot; &quot;()&quot; &quot;(nlogo-send \&quot;somehting\&quot;)&quot; &quot;(startup 2226)&quot; &quot;(nlogo-send \&quot;hello\&quot;)&quot; &quot;(startup 2222)&quot; &quot;(startup 2223)&quot; &quot;(startup 2224)&quot; &quot;(nlogo-send-exec 50)&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1459669692544">{:repl-history {:ide [], :local [&quot;(nlogo-send mygean1)&quot; &quot;(def agent1 \&quot;(setup-rabbits1 0.1 blue 123\&quot;)&quot; &quot;(def agent1 \&quot;(setup-rabbits1 0.1 blue 123)\&quot;)&quot; &quot;(def agent1 \&quot;(setup-rabbits1 0.1 red 123)\&quot;)&quot; &quot;(nlogo-send agent1)&quot; &quot;(assoc test-map :key3 3)&quot; &quot;(test-map)&quot; &quot;(def test-map (assoc test-map :key3 3))&quot; &quot;test-map&quot; &quot;(def food [:ice-cream :steak :apple])&quot; &quot;(rand-nth food)&quot; &quot;(rand-nth test-map)&quot; &quot;(rand-int test-map)&quot; &quot;(def test-m {:1 one :2 two :3 three})&quot; &quot;(def test-map {:key1 1 :key2 2})&quot; &quot;(get test-map (rand-nth (keys test-map)))&quot; &quot;(def colour_name\n  {:0000 \&quot;gray\&quot;\n   :0001 \&quot;red\&quot;\n   :0010 \&quot;orange\&quot;\n   :0011 \&quot;brown\&quot;\n   :0100 \&quot;yellow\&quot;\n   :0101 \&quot;green\&quot;\n   :0110 \&quot;lime\&quot;\n   :0111 \&quot;turquoise\&quot;\n   :1000 \&quot;cyan\&quot;\n   :1001 \&quot;sky\&quot;\n   :1010 \&quot;blue\&quot;\n   :1011 \&quot;violet\&quot;\n   :1100 \&quot;magenta\&quot;\n   :1101 \&quot;pink\&quot;\n   :1110 \&quot;black\&quot;\n   :1111 \&quot;white\&quot;\n   })\n&quot; &quot;(rand-nth (vec colour_name))&quot; &quot;agent1&quot; &quot;(rand-nth (vec speed))&quot; &quot;(ns dna.definitions)&quot; &quot;(rest (new-gean-list 3))&quot; &quot;(get geans-list 0)&quot; &quot;(get geans-list 1)&quot; &quot;(rest geans-list)&quot; &quot;(map (rest geans-list) (rest (rest (new-gean-list 4))))&quot; &quot;(rest (rest (new-gean-list 4)))&quot; &quot;(speed :0010)&quot; &quot;(speed (rest (rest (new-gean-list 3))))&quot; &quot;(map println (rest (new-gean-list 3)))&quot; &quot;(map println geans-list)&quot; &quot;(colour_name :0101)&quot; &quot;(map (first geans-list) (rest (rest (new-gean-list 4))))&quot; &quot;(my-fun (first geans-list) (rest (rest (new-gean-list 3))))&quot; &quot;(rest (rest (new-gean-list 3)))&quot; &quot;(speed :0000)&quot; &quot;(my-fun (first geans-list) (rest (new-gean-list 3)))&quot; &quot;(my-fun geans-list (rest (new-gean-list3)))&quot; &quot;(colour :0101)&quot; &quot;(my-fun speed :0001)&quot; &quot;(my-fun geans-list (rest (new-gean-list 3)))&quot; &quot;(my-fun (rest geans-list) (rest (rest (new-gean-list 3))))&quot; &quot;(speed :0001)&quot; &quot;(my-fun (first geans-list) (first (last (new-gean-list 3))))&quot; &quot;(first (last (new-gean-list 3)))&quot; &quot;(last (last (new-gean-list 3)))&quot; &quot;(my-fun (first geans-list) (first (rest (new-gean-list 3))))&quot; &quot;(my-fun speed :1011)&quot; &quot;(translate (new-gean-list 2))&quot; &quot;(new-gean-list 3)&quot; &quot;(my-fun speed :1010)&quot; &quot;(my-fun speed :0010)&quot; &quot;(doall (map my-fun speed (rest (new-gean-list 3))))&quot; &quot;(my-fun speed :0101)&quot; &quot;(doall (map my-fun geans-list y))&quot; &quot;(doall (map my-fun geans-list (rest (new-gean-list 3))))&quot; &quot;(doall (map my-fun (rest (new-gean-list 3)) :1010))&quot; &quot;(doall (map my-fun (rest (new-gean-list 3)) '(speed)))&quot; &quot;(doall (map my-fun (rest (new-gean-list 3)) speed))&quot; &quot;(my-fun (rest (new-gean-list 4)) speed) &quot; &quot;(my-fun (new-gean-list 4) speed) &quot; &quot;(my-fun :0101 speed) &quot; &quot;(doall (map class geans-list))&quot; &quot;(class (first (geans-list)))&quot; &quot;(class (last (geans-list)))&quot; &quot;(doall (map my-fun (rest (new-gean-list 3)) geans-list))&quot; &quot;(geans-list)&quot; &quot;geans-list&quot; &quot;(first geans-list)&quot; &quot;(class speed)&quot; &quot;(class (first geans-list))&quot; &quot;(rtn-speed :1010 speed)&quot; &quot;(rtn-speed (rest (new-gean-list 3)) geans-list)&quot; &quot;(def geans-list1 '(speed colour))&quot; &quot;(rtn-speed (rest (new-gean-list 3)) geans-list1)&quot; &quot;(translate (new-gean-list 3))&quot; &quot;(nlogo-send (translate (new-gean-list 3)))&quot; &quot;(creat-rabbits 30)&quot; &quot;(println (translate (new-gean-list x)))&quot; &quot;(println (translate (new-gean-list 1)))&quot; &quot;(println (translate (new-gean-list 3)))&quot; &quot;(loop [x 10]\n  (when (&gt; x 1)\n    (println x)\n    (recur (- x 2))))&quot; &quot;(crt-rabbits 23)&quot; &quot;(nlogo-send-exec 20)&quot; &quot;(str \&quot;finrepl \&quot; (- 20 1))&quot; &quot;(startup 2225)&quot; &quot;()&quot; &quot;(nlogo-send \&quot;somehting\&quot;)&quot; &quot;(startup 2226)&quot; &quot;(nlogo-send \&quot;hello\&quot;)&quot; &quot;(startup 2224)&quot; &quot;(nlogo-send-exec 50)&quot; &quot;(nlogo-send-exec 100)&quot; &quot;(loop [x 100]\n  (when (&gt; x 0)\n    (nlogo-read)\n    (recur (- x 1))))&quot; &quot;(startup 2222)&quot; &quot;(nlogo-read)&quot; &quot;(nlogo-send-exec 10)&quot; &quot;(startup 2223)&quot; &quot;pop&quot; &quot;45w y45&quot; &quot;(sadf)&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.REPL">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -564,11 +575,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37759817" sideWeight="0.5324745" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37759817" sideWeight="0.5346216" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37759817" sideWeight="0.46752548" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37759817" sideWeight="0.46537843" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25335482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -598,7 +609,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -627,7 +638,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -671,7 +685,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -715,7 +732,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -759,7 +779,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -803,7 +826,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -847,7 +873,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -986,14 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agents/agents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/external/matcher.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1003,7 +1024,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comm/translater.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="264">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
@@ -1017,17 +1038,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/artificial_evolution/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dna/definitions.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="1540">
           <caret line="70" column="3" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
           <folding>
             <element signature="e#107#329#0" expanded="false" />
@@ -1037,10 +1050,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comm/wrapper.clj">
+    <entry file="file://$PROJECT_DIR$/src/artificial_evolution/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agents/agents.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comm/wrapper.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="92" selection-end-column="23" />
           <folding />
         </state>
       </provider>
