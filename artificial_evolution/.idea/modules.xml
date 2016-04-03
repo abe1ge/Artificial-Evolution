@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/artificial-evolution.iml" filepath="$PROJECT_DIR$/artificial-evolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artificial_evolution.iml" filepath="$PROJECT_DIR$/artificial_evolution.iml" />
     </modules>
   </component>
 </project>

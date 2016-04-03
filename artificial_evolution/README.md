@@ -1,4 +1,4 @@
-# artificial-evolution
+# artificial_evolution
 
 FIXME: description
 
@@ -10,7 +10,7 @@ Download from http://example.com/FIXME.
 
 FIXME: explanation
 
-    $ java -jar artificial-evolution-0.1.0-standalone.jar [args]
+    $ java -jar artificial_evolution-0.1.0-standalone.jar [args]
 
 ## Options
 

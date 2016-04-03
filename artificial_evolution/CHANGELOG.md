@@ -1,11 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file. This change log follows the conventions of [keepachangelog.com](http://keepachangelog.com/).
 
-## [Unreleased][unreleased]
+## [Unreleased]
 ### Changed
 - Add a new arity to `make-widget-async` to provide a different widget shape.
 
-## [0.1.1] - 2016-03-22
+## [0.1.1] - 2016-03-25
 ### Changed
 - Documentation on how to make the widgets.
 
@@ -15,10 +15,10 @@ All notable changes to this project will be documented in this file. This change
 ### Fixed
 - Fixed widget maker to keep working when daylight savings switches over.
 
-## 0.1.0 - 2016-03-22
+## 0.1.0 - 2016-03-25
 ### Added
 - Files from the new template.
 - Widget maker public API - `make-widget-sync`.
 
-[unreleased]: https://github.com/your-name/artificial-evolution/compare/0.1.1...HEAD
-[0.1.1]: https://github.com/your-name/artificial-evolution/compare/0.1.0...0.1.1
+[Unreleased]: https://github.com/your-name/artificial_evolution/compare/0.1.1...HEAD
+[0.1.1]: https://github.com/your-name/artificial_evolution/compare/0.1.0...0.1.1

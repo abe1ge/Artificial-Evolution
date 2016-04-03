@@ -1,11 +1,10 @@
-(ns artificial-evolution.wrappers)
-(require '[clojure.set :refer :all])
-(require '[clojure.string :as str])
-(require '[clojure.pprint :refer :all])
-
-
-
-
+(ns comm.wrapper
+  (require [comm.translater :refer :all]
+           [dna.definitions :refer :all]
+           [clojure.set :refer :all]
+           [clojure.string :as str]
+           [clojure.pprint :refer :all]
+           ))
 
 (import '(java.net ServerSocket Socket SocketException)
         '(java.io InputStreamReader OutputStreamWriter)
@@ -63,8 +62,6 @@
   (set-shrdlu-comms port)
 
   )
-
-
 (defn nlogo-send [txt]
   ;(println '** (and shrdlu-comms true) txt)
   (if shrdlu-comms (socket-write shrdlu-comms txt)))
@@ -76,49 +73,48 @@
   (and shrdlu-comms (socket-input-waiting shrdlu-comms)))
 
 
-(declare nlogo-translate-cmd)
 
-(defn nlogo-send-exec [cmd-list]
-  ; (ui-out :comm 'NL==> cmd-list)
-  ;(println cmd-list "First")
 
-   (nlogo-send (nlogo-translate-cmd cmd-list))
-  ;(let [cmd-str (nlogo-translate-cmd cmd-list)])
-  ; (let [cmd-list (nlogo-translate-cmd cmd-list)])
-  (println cmd-list "Sent _"
-            ;  (nlogo-send cmd-str)
 
-           ))
+
+(defn my-fun [b a]
+  (a b))
+
+(defn translate [list-gean]
+  (let [x (nth list-gean 0) y (rest list-gean)]
+    (nlogo-translate-cmd (concat '(to-nlogo)(list x) (doall (map my-fun geans-list y))))
+    ))
+
+(defn crt-rabbits [int1]
+  (loop [x int1]
+    (when (> x 0)
+      (println x)
+      (nlogo-send (translate (new-gean-list x)))
+      (recur (- x 1))))
+  )
+(defn nlogo-send-exec [times]
+  (nlogo-send (str "finrepl " times))
+  (crt-rabbits times)
+  )
+
+
 (defn concat-all [coll]
   (join " " coll))
 
 
 (defn n-logosend1
-[results]
+  [results]
 
+  (nlogo-send '(startup))
+  (def one (count [:cmds results]))
+  (def two "finrepl")
+  (prn (count (:cmds results)))
+  (nlogo-send (list two one))
+  ()
+  (doall (map nlogo-send-exec (:cmds results)))
+  (:cmds  results)
 
-(nlogo-send '(startup))
-
-(def one (count [:cmds results]))
-(def two "finrepl")
-
-(prn (count (:cmds results)))
- (nlogo-send (list two one))
-;(nlogo-send-exec (:cmds results))
-; (doall (map (nlogo-send-exec (:cmds results))))
-; (doall (map nlogo-send-exec :cmds))
-;  (doall (map nlogo-send-exec (:cmds results)))
-()
-(doall (map nlogo-send-exec (:cmds results)))
-(:cmds  results)
-;get the cmds from results and send it to nlogo-send-exec
-)
+  )
 
 
 
-;(declare nlogo-translate-cmd)
-;(def cmd1 '((at Tblue c3)))
-;
-;(defn test1 [cmd]
-;  (n-logosend1 (ops-search state cmd ops :world world))
-;  )
