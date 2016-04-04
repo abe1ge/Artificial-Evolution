@@ -198,7 +198,8 @@ external.matcher)
   ([p d bind] `(matcher:matches- ~p ~d (merge ~mns-nam {:pat ~p :it ~d} ~bind)))
   )
 
-
+(defmacro with-timeout [time & body]
+  `(thunk-timeout (fn [] ~@body) ~time))
 
 
 ;--------------------------------------

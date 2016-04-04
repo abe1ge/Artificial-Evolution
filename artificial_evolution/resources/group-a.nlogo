@@ -17,6 +17,7 @@ globals
   grid-y-inc                      ;; the amount of patches in between two roads in the y direction
   road                            ;; agentset containing the patches that are roads
   road-color
+  num-new-agent
 ]
 
 ;================================================================================================================================================================
@@ -34,7 +35,7 @@ to setup
   setup-patches
 
   setup-rabbits
-
+  set num-new-agent 0
   reset-ticks
 end
 
@@ -117,7 +118,12 @@ end
 ;================================================================================================================================================================
 
 to go
-  if not any? turtles [ stop ]        ;; stop when no turtles
+  if not any? turtles
+  [
+    sock2:write "\"stop\""
+    sock2:write "\"stopped\""
+    stop
+  ]        ;; stop when no turtles
 
   show-turtle-details
   show-patches-details
@@ -127,11 +133,27 @@ to go
 
 
   regrow-grass
-
+  new.agent
   tick
 end
 
-
+to test-cl
+  sock2:write "\"stop1\""
+  sock2:write "\"stop2\""
+  sock2:write "\"stop3\""
+  sock2:write "\"stop4\""
+  sock2:write "\"stop5\""
+  sock2:write "\"stop6\""
+  sock2:write "\"stop7\""
+  sock2:write "\"stop8\""
+  sock2:write "\"stop9\""
+  sock2:write "\"stop0\""
+  sock2:write "\"stop11\""
+  sock2:write "\"stop13\""
+  sock2:write "\"stop14\""
+  sock2:write "\"stop\""
+  sock2:write "\"stoped\""
+end
 
 
 to regrow-grass
@@ -213,11 +235,13 @@ to car-crash
         output-print (word "Clojure Sent: ""id: "id " speed: " speed " color: "color)
         output-print (word id ":" speed ":"color)
       exec.repl2 (word "\""id ":" speed ":"color"\"")
+      set num-new-agent (num-new-agent + 1)
       die
       ]
     ]
   ]
 end
+
 
 to eat-food
   ask self[
@@ -242,7 +266,6 @@ to exec.repl
   if ((word cmd-str) != "<null>")
   [
   run cmd-str
-  tick
   ]
 end
 
@@ -255,6 +278,12 @@ to exec.repl2 [message]
 
 end
 
+to new.agent
+  while [num-new-agent != 0]
+  [ output-print "going to have a new baby"
+    exec.repl
+    set num-new-agent (num-new-agent - 1)]
+end
 to finrepl [#num]
   loop [
    if (#num = 0)
@@ -391,7 +420,7 @@ num-of-rabbits
 num-of-rabbits
 0
 500
-33
+0
 1
 1
 NIL
@@ -561,7 +590,7 @@ INPUTBOX
 1019
 72
 port-num
-2223
+2222
 1
 0
 Number

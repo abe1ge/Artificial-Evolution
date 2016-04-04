@@ -2,7 +2,8 @@
   (:gen-class)
   (require [comm.wrapper :refer :all]
            [dna.gen :refer :all]
-           [dna.definitions :refer :all]))
+           [dna.definitions :refer :all]
+           [comm.nread :refer :all]))
 
 
 

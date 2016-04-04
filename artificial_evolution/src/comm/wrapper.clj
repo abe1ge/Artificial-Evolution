@@ -4,6 +4,7 @@
            [clojure.set :refer :all]
            [clojure.string :as str]
            [clojure.pprint :refer :all]
+           [external.matcher :refer :all]
            ))
 
 (import '(java.net ServerSocket Socket SocketException)
@@ -13,7 +14,6 @@
 
 ;___ active socket is used as a global _____________
 (def shrdlu-comms false)
-
 
 
 (defn startup-server
@@ -73,6 +73,14 @@
   (and shrdlu-comms (socket-input-waiting shrdlu-comms)))
 
 
+
+(defn con-read []
+  (let [x (nlogo-read)]
+    (while (.equals x "stop")
+      (println x)
+      (swap! x (nlogo-read)))
+    )
+  )
 
 
 
