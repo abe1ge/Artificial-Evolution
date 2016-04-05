@@ -26,10 +26,10 @@
     (if (number? n) n nil)))
 
 
-
 (def geans-list [speed colour])
 
 
+;;get the key for a gene
 (defn get-gene [gean]
   (let [x (rand-nth (keys gean))]
     x

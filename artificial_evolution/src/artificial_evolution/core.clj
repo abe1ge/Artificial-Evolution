@@ -3,7 +3,8 @@
   (require [comm.wrapper :refer :all]
            [dna.gen :refer :all]
            [dna.definitions :refer :all]
-           [comm.nread :refer :all]))
+           [comm.nread :refer :all]
+           [lib.maps :refer :all]))
 
 
 (defn -main
