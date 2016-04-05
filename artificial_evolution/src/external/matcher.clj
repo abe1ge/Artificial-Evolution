@@ -189,8 +189,6 @@ external.matcher)
     ))
 
 
-
-
 (defmacro matches
   "the most primitive matching form, matches a pattern against data.
   This is a low-level form, it will not usually be called directly"

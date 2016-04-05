@@ -1,6 +1,6 @@
 (ns comm.wrapper
   (require [comm.translater :refer :all]
-           [dna.definitions :refer :all]
+           [dna.gen :refer :all]
            [clojure.set :refer :all]
            [clojure.string :as str]
            [clojure.pprint :refer :all]
@@ -31,7 +31,6 @@
            )
          (catch SocketException e))
     ))
-
 
 (defn socket-write
   "low-level socket writer"
