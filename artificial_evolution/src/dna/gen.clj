@@ -1,7 +1,7 @@
 (ns dna.gen
   (require [dna.definitions :refer :all]
-           [comm.translater :refer :all]
            [lib.numbers :refer :all]
+           [lib.maps :refer :all]
            )
   (use [clojure.string :only (split)]))
 
@@ -29,27 +29,20 @@
 (def geans-list [speed colour])
 
 
-;;get the key for a gene
-(defn get-gene [gean]
-  (let [x (rand-nth (keys gean))]
-    x
-    )
-  )
-
 ;;find the gean from gene list using which gene it is
 (defn find-gene []
-  (parse-int (str (get-gene speed)))
+  (parse-int (str (rand-key speed)))
   )
 
 (defn new-gean-str [id]
   (let [x id]
-    (str x (get-gene speed) (get-gene colour))
+    (str x (rand-key speed) (rand-key colour))
     )
   )
 
 (defn new-gean-list [id]
   (let [x id]
-    (list x (get-gene speed) (get-gene colour))
+    (list x (rand-key speed) (rand-key colour))
     )
   )
 
@@ -57,8 +50,4 @@
   (split gean #":")
   )
 
-(defn get-color []
-  (rand-nth (vec colour)))
 
-(defn nlogotranslate [id]
-  (nlogo-translate-cmd (concat '(try) (new-gean-list id))))

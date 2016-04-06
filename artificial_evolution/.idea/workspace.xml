@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c126656f-685a-4cf5-8bc6-8187f68c28d5" name="Default" comment="map namespace">
+    <list default="true" id="c126656f-685a-4cf5-8bc6-8187f68c28d5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/artificial_evolution/core.clj" afterPath="$PROJECT_DIR$/src/artificial_evolution/core.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/comm/translater.clj" afterPath="$PROJECT_DIR$/src/comm/translater.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dna/gen.clj" afterPath="$PROJECT_DIR$/src/dna/gen.clj" />
     </list>
     <list id="714c2145-1d17-4ca4-aa66-1c09bfd98ae4" name="Communication between clojure and netlogo is working and is contenious :D" comment="there is a constent comuncation between clojure and netlogo but due to everything happening on one thread, after a certin amount of time we get stack over flow, but this isn't anything to worry about right now. &#10;netlgo need to pass in a gean and extra stuff" />
@@ -27,71 +26,109 @@
     <favorites_list name="artificial_evolution" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/artificial_evolution/core.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="numbers.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/numbers.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gen.clj" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dna/gen.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="maps.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/maps.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="definitions.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dna/definitions.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-88">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="40" />
-              <folding>
-                <element signature="e#68#266#0" expanded="false" />
-                <element signature="e#504#2172#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transcription.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dna/transcription.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="wrapper.clj" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/comm/wrapper.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="726">
+                  <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/artificial_evolution/core.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="332">
+                  <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="numbers.clj" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/lib/numbers.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="88">
+                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="gen.clj" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/dna/gen.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="396">
+                  <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="translater.clj" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/comm/translater.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="nwrite.clj" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/comm/nwrite.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="definitions.clj" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/dna/definitions.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="22">
+                  <caret line="1" column="40" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="40" />
+                  <folding>
+                    <element signature="e#68#266#0" expanded="false" />
+                    <element signature="e#268#502#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="transcription.clj" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/dna/transcription.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="176">
+                  <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="maps.clj" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/lib/maps.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="110">
+                  <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,16 +154,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/agents/agents.java" />
-        <option value="$PROJECT_DIR$/src/comm/translater.clj" />
         <option value="$PROJECT_DIR$/src/dna/transcription.clj" />
         <option value="$PROJECT_DIR$/src/dna/definitions.clj" />
         <option value="$PROJECT_DIR$/src/comm/wrapper.clj" />
         <option value="$PROJECT_DIR$/src/external/matcher.clj" />
         <option value="$PROJECT_DIR$/src/lib/numbers.clj" />
         <option value="$PROJECT_DIR$/src/lib/mapping.clj" />
-        <option value="$PROJECT_DIR$/src/lib/maps.clj" />
         <option value="$PROJECT_DIR$/src/artificial_evolution/core.clj" />
         <option value="$PROJECT_DIR$/src/dna/gen.clj" />
+        <option value="$PROJECT_DIR$/src/comm/translater.clj" />
+        <option value="$PROJECT_DIR$/src/comm/nwrite.clj" />
+        <option value="$PROJECT_DIR$/src/lib/maps.clj" />
       </list>
     </option>
   </component>
@@ -307,7 +345,7 @@
       <recent name="C:\Users\Abelether\Documents\03-University\Final Year Project\Github\Artificial-Evolution\artificial_evolution\src\comm" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1459894576699">{:repl-history {:ide [], :local [&quot;(doall (map my-fun (rest (new-gean-list 3)) geans-list))&quot; &quot;(first geans-list)&quot; &quot;(class speed)&quot; &quot;(class (first geans-list))&quot; &quot;(rtn-speed :1010 speed)&quot; &quot;(rtn-speed (rest (new-gean-list 3)) geans-list)&quot; &quot;(def geans-list1 '(speed colour))&quot; &quot;(rtn-speed (rest (new-gean-list 3)) geans-list1)&quot; &quot;(translate (new-gean-list 3))&quot; &quot;(nlogo-send (translate (new-gean-list 3)))&quot; &quot;(creat-rabbits 30)&quot; &quot;(println (translate (new-gean-list x)))&quot; &quot;(println (translate (new-gean-list 1)))&quot; &quot;(println (translate (new-gean-list 3)))&quot; &quot;(crt-rabbits 23)&quot; &quot;(nlogo-send-exec 20)&quot; &quot;(str \&quot;finrepl \&quot; (- 20 1))&quot; &quot;(startup 2225)&quot; &quot;(nlogo-send \&quot;somehting\&quot;)&quot; &quot;(startup 2226)&quot; &quot;(nlogo-send \&quot;hello\&quot;)&quot; &quot;(startup 2224)&quot; &quot;(nlogo-send-exec 50)&quot; &quot;(nlogo-send-exec 100)&quot; &quot;(loop [x 100]\n  (when (&gt; x 0)\n    (nlogo-read)\n    (recur (- x 1))))&quot; &quot;(startup 2223)&quot; &quot;pop&quot; &quot;45w y45&quot; &quot;(sadf)&quot; &quot;(nlogo-read)&quot; &quot;VirtualMachineError&quot; &quot;oijp&quot; &quot;(nlogo-send-exec 10)&quot; &quot;(loop [x 10]\n  (when (&gt; x 1)\n    (println x)\n    (recur (- x 2))))&quot; &quot;(loop [x 10]\n  (when (&gt; x 1)\n    (println x)\n    (recur (- x 1))))&quot; &quot;(loop [x 10]\n  (when (&gt; x 1)\n    (println (Integer/toString x))\n    (recur (- x 1))))&quot; &quot;(loop [x 10]\n  (when (&gt; x 1)\n    (println (Integer/toString x 2))\n    (recur (- x 1))))&quot; &quot;(Integer/toString 19 2)&quot; &quot;(str-int \&quot;221312312\&quot;)&quot; &quot;(defn unary [num]\n  let x (loop [y num]\n          (when (&gt; y 1)\n            (concat x 1)\n            (recure (- y 1)))))&quot; &quot;(defn unary [num]\n  let x (loop [y num]\n          (when (&gt; y 1)\n            (concat x \&quot;1\&quot;)\n            (recure (- y 1)))))&quot; &quot;(defn unary [num]\n  let [x (loop [y num]\n          (when (&gt; y 1)\n            (concat x \&quot;1\&quot;)\n            (recure (- y 1))))])&quot; &quot;(concat 3 \&quot;3\&quot;)&quot; &quot;(concat \&quot;3\&quot; \&quot;4\&quot;)&quot; &quot;(defn unary [num]\n  let x (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recure (- y 1)))))&quot; &quot;(defn unary [num]\n  let [x (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recure (- y 1))))])&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recure (- y 1))))))&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recur (- y 1))))))&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recur (- y 1))))\n       x))&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recur (- y 1))))\n       ))&quot; &quot;(unary 5)&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) \&quot;1\&quot;)\n            (recur (- y 1))))\n       ))&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) \&quot;1\&quot;)\n            (recur (- y 1))))\n       x))&quot; &quot;(unary 4)&quot; &quot;()&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n    (concat x \&quot;1\&quot;)\n       x))&quot; &quot;(defn unary [num]\n  (let [x (concat \&quot;1\&quot; \&quot;1\&quot;)]\n       x))&quot; &quot;(unary 3)&quot; &quot;(defn unary [num]\n  (let [x (concat (loop [y num]\n                    (when (&gt; y num)\n                      x\n                      (recur (- y 1)))))]\n       x))&quot; &quot;(defn unary [num]\n  (let [x (concat (loop [y num]\n                    (when (&gt; y num)\n                      (str x)\n                      (recur (- y 1)))))]\n       x))&quot; &quot;(defn unary [num]\n  (let [x (concat (loop [y num]\n                    (when (&gt; y num)\n                      (concat (str x) \&quot;1\&quot;)\n                      (recur (- y 1)))))]\n       x))&quot; &quot;(defn unary [num]\n  (let [x (loop [y num]\n                    (when (&gt; y num)\n                      (concat (str x) \&quot;1\&quot;)\n                      (recur (- y 1))))]\n       x))&quot; &quot;(startup 2222)&quot; &quot;(nread-check (nlogo-str))&quot; &quot;(hash-map {:0101 2 :0202 2})&quot; &quot;(hash-map :key1 1, key2 2)&quot; &quot;(hash-map :key1 1, :key2 2)&quot; &quot;(merge speed {:22 2.1})&quot; &quot;(require '[clojure.string :as str])&quot; &quot;(str/split \&quot;q1w2e3r4t5y6u7i8o9p0\&quot; #\&quot;\\d+\&quot; 5)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;\\d+\&quot; 4)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;\\d+\&quot; 3)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;1\&quot; 3)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;1\&quot; 4)&quot; &quot;(subs \&quot;101010110101\&quot; 3 6)&quot; &quot;(subs \&quot;101010110101\&quot; 0 4 8)&quot; &quot;(subs \&quot;101010110101\&quot; 0 4 8 9)&quot; &quot;(subs \&quot;101010110101\&quot; 0 4)&quot; &quot;(defn reocur [agentdna]\n  (let [x 3]\n    (+ x 11))\n  )&quot; &quot;(reocur asdfa)&quot; &quot;(reocur )&quot; &quot;(reocur 2)&quot; &quot;(def mydna \&quot;1010100110101001\&quot;)&quot; &quot;(reocur mydna)&quot; &quot;(defn gen-gean [num ]\n  (def mygean1 \&quot;1 \&quot;)\n  (println mygean1)\n  (loop [x num]\n    (when (&gt; x 1)\n      (def mygean1\n        (str mygean1 (rand-int 2))\n        )\n      (recur (- x 1))))\n  )&quot; &quot;(gen-gean 50)&quot; &quot;(ns dna.gen)&quot; &quot;(gen-gean 3)&quot; &quot;(gen-gean 10)&quot; &quot;(mygean1)&quot; &quot;(str-int mygean1)&quot; &quot;mygean1&quot; &quot;(geans-list)&quot; &quot;geans-list&quot; &quot;(new-gean-list 1)&quot; &quot;(speed :19)&quot; &quot;(colour :150)&quot; &quot;(new-gean-str 3)&quot; &quot;(new-gean-str 5)&quot; &quot;(get-gene speed)&quot; &quot;(get-speed speed)&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1459902889968">{:repl-history {:ide [], :local [&quot;(doall (map my-fun (rest (new-gean-list 3)) geans-list))&quot; &quot;(first geans-list)&quot; &quot;(class speed)&quot; &quot;(class (first geans-list))&quot; &quot;(rtn-speed :1010 speed)&quot; &quot;(rtn-speed (rest (new-gean-list 3)) geans-list)&quot; &quot;(def geans-list1 '(speed colour))&quot; &quot;(rtn-speed (rest (new-gean-list 3)) geans-list1)&quot; &quot;(translate (new-gean-list 3))&quot; &quot;(nlogo-send (translate (new-gean-list 3)))&quot; &quot;(creat-rabbits 30)&quot; &quot;(println (translate (new-gean-list x)))&quot; &quot;(println (translate (new-gean-list 1)))&quot; &quot;(println (translate (new-gean-list 3)))&quot; &quot;(crt-rabbits 23)&quot; &quot;(nlogo-send-exec 20)&quot; &quot;(str \&quot;finrepl \&quot; (- 20 1))&quot; &quot;(startup 2225)&quot; &quot;(nlogo-send \&quot;somehting\&quot;)&quot; &quot;(startup 2226)&quot; &quot;(nlogo-send \&quot;hello\&quot;)&quot; &quot;(startup 2224)&quot; &quot;(nlogo-send-exec 50)&quot; &quot;(nlogo-send-exec 100)&quot; &quot;(loop [x 100]\n  (when (&gt; x 0)\n    (nlogo-read)\n    (recur (- x 1))))&quot; &quot;(startup 2223)&quot; &quot;pop&quot; &quot;45w y45&quot; &quot;(sadf)&quot; &quot;(nlogo-read)&quot; &quot;VirtualMachineError&quot; &quot;oijp&quot; &quot;(nlogo-send-exec 10)&quot; &quot;(loop [x 10]\n  (when (&gt; x 1)\n    (println x)\n    (recur (- x 2))))&quot; &quot;(loop [x 10]\n  (when (&gt; x 1)\n    (println x)\n    (recur (- x 1))))&quot; &quot;(loop [x 10]\n  (when (&gt; x 1)\n    (println (Integer/toString x))\n    (recur (- x 1))))&quot; &quot;(loop [x 10]\n  (when (&gt; x 1)\n    (println (Integer/toString x 2))\n    (recur (- x 1))))&quot; &quot;(Integer/toString 19 2)&quot; &quot;(str-int \&quot;221312312\&quot;)&quot; &quot;(defn unary [num]\n  let x (loop [y num]\n          (when (&gt; y 1)\n            (concat x 1)\n            (recure (- y 1)))))&quot; &quot;(defn unary [num]\n  let x (loop [y num]\n          (when (&gt; y 1)\n            (concat x \&quot;1\&quot;)\n            (recure (- y 1)))))&quot; &quot;(defn unary [num]\n  let [x (loop [y num]\n          (when (&gt; y 1)\n            (concat x \&quot;1\&quot;)\n            (recure (- y 1))))])&quot; &quot;(concat 3 \&quot;3\&quot;)&quot; &quot;(concat \&quot;3\&quot; \&quot;4\&quot;)&quot; &quot;(defn unary [num]\n  let x (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recure (- y 1)))))&quot; &quot;(defn unary [num]\n  let [x (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recure (- y 1))))])&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recure (- y 1))))))&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recur (- y 1))))))&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recur (- y 1))))\n       x))&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recur (- y 1))))\n       ))&quot; &quot;(unary 5)&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) \&quot;1\&quot;)\n            (recur (- y 1))))\n       ))&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) \&quot;1\&quot;)\n            (recur (- y 1))))\n       x))&quot; &quot;(unary 4)&quot; &quot;()&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n    (concat x \&quot;1\&quot;)\n       x))&quot; &quot;(defn unary [num]\n  (let [x (concat \&quot;1\&quot; \&quot;1\&quot;)]\n       x))&quot; &quot;(unary 3)&quot; &quot;(defn unary [num]\n  (let [x (concat (loop [y num]\n                    (when (&gt; y num)\n                      x\n                      (recur (- y 1)))))]\n       x))&quot; &quot;(defn unary [num]\n  (let [x (concat (loop [y num]\n                    (when (&gt; y num)\n                      (str x)\n                      (recur (- y 1)))))]\n       x))&quot; &quot;(defn unary [num]\n  (let [x (concat (loop [y num]\n                    (when (&gt; y num)\n                      (concat (str x) \&quot;1\&quot;)\n                      (recur (- y 1)))))]\n       x))&quot; &quot;(defn unary [num]\n  (let [x (loop [y num]\n                    (when (&gt; y num)\n                      (concat (str x) \&quot;1\&quot;)\n                      (recur (- y 1))))]\n       x))&quot; &quot;(startup 2222)&quot; &quot;(nread-check (nlogo-str))&quot; &quot;(hash-map {:0101 2 :0202 2})&quot; &quot;(hash-map :key1 1, key2 2)&quot; &quot;(hash-map :key1 1, :key2 2)&quot; &quot;(merge speed {:22 2.1})&quot; &quot;(require '[clojure.string :as str])&quot; &quot;(str/split \&quot;q1w2e3r4t5y6u7i8o9p0\&quot; #\&quot;\\d+\&quot; 5)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;\\d+\&quot; 4)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;\\d+\&quot; 3)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;1\&quot; 3)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;1\&quot; 4)&quot; &quot;(subs \&quot;101010110101\&quot; 3 6)&quot; &quot;(subs \&quot;101010110101\&quot; 0 4 8)&quot; &quot;(subs \&quot;101010110101\&quot; 0 4 8 9)&quot; &quot;(subs \&quot;101010110101\&quot; 0 4)&quot; &quot;(defn reocur [agentdna]\n  (let [x 3]\n    (+ x 11))\n  )&quot; &quot;(reocur asdfa)&quot; &quot;(reocur )&quot; &quot;(reocur 2)&quot; &quot;(def mydna \&quot;1010100110101001\&quot;)&quot; &quot;(reocur mydna)&quot; &quot;(defn gen-gean [num ]\n  (def mygean1 \&quot;1 \&quot;)\n  (println mygean1)\n  (loop [x num]\n    (when (&gt; x 1)\n      (def mygean1\n        (str mygean1 (rand-int 2))\n        )\n      (recur (- x 1))))\n  )&quot; &quot;(gen-gean 50)&quot; &quot;(ns dna.gen)&quot; &quot;(gen-gean 3)&quot; &quot;(gen-gean 10)&quot; &quot;(mygean1)&quot; &quot;(str-int mygean1)&quot; &quot;mygean1&quot; &quot;(geans-list)&quot; &quot;geans-list&quot; &quot;(new-gean-list 1)&quot; &quot;(speed :19)&quot; &quot;(colour :150)&quot; &quot;(new-gean-str 3)&quot; &quot;(new-gean-str 5)&quot; &quot;(get-gene speed)&quot; &quot;(get-speed speed)&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.REPL">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -597,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1459736369096</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="map namespace">
+      <created>1459894593217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1459894593217</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -620,11 +665,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32448035" sideWeight="0.67579174" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32448035" sideWeight="0.68062264" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32448035" sideWeight="0.31937736" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32448035" sideWeight="0.682233" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32448035" sideWeight="0.31776705" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256351" sideWeight="0.4347826" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256351" sideWeight="0.43048847" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16210413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -659,7 +704,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dna/definitions.clj</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -668,14 +721,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/artificial_evolution/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dna/gen.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -689,8 +734,8 @@
         <state relative-caret-position="308">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#415#416#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -701,7 +746,7 @@
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
             <element signature="e#68#266#0" expanded="false" />
-            <element signature="e#504#2172#0" expanded="false" />
+            <element signature="e#268#502#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -735,8 +780,8 @@
         <state relative-caret-position="176">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#415#416#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -747,7 +792,7 @@
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="e#68#266#0" expanded="false" />
-            <element signature="e#504#2172#0" expanded="false" />
+            <element signature="e#268#502#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -781,8 +826,8 @@
         <state relative-caret-position="176">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#415#416#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -793,7 +838,7 @@
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="e#68#266#0" expanded="false" />
-            <element signature="e#504#2172#0" expanded="false" />
+            <element signature="e#268#502#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -827,8 +872,8 @@
         <state relative-caret-position="176">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#415#416#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -839,7 +884,7 @@
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="e#68#266#0" expanded="false" />
-            <element signature="e#504#2172#0" expanded="false" />
+            <element signature="e#268#502#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -873,8 +918,8 @@
         <state relative-caret-position="176">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#415#416#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -885,7 +930,7 @@
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="e#68#266#0" expanded="false" />
-            <element signature="e#504#2172#0" expanded="false" />
+            <element signature="e#268#502#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -920,7 +965,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#68#266#0" expanded="false" />
-            <element signature="e#504#2172#0" expanded="false" />
+            <element signature="e#268#502#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1005,34 +1050,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="6945" column="12" selection-start-line="6945" selection-start-column="12" selection-end-line="6945" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dna/transcription.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/comm/wrapper.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/comm/nread.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1042,17 +1063,9 @@
         <state relative-caret-position="380">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="false" />
+            <element signature="e#415#416#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/comm/translater.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,29 +1077,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dna/definitions.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="40" />
-          <folding>
-            <element signature="e#68#266#0" expanded="false" />
-            <element signature="e#504#2172#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/mapping.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/maps.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1099,18 +1093,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/artificial_evolution/core.clj">
+    <entry file="file://$PROJECT_DIR$/src/dna/definitions.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="22">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="40" />
+          <folding>
+            <element signature="e#68#266#0" expanded="false" />
+            <element signature="e#268#502#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comm/wrapper.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comm/nread.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comm/translater.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comm/nwrite.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dna/gen.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="63" column="3" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
+        <state relative-caret-position="396">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/maps.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/artificial_evolution/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding />
         </state>
       </provider>
