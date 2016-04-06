@@ -4,7 +4,9 @@
            [dna.gen :refer :all]
            [dna.definitions :refer :all]
            [comm.nread :refer :all]
-           [lib.maps :refer :all]))
+           [lib.maps :refer :all]
+           [comm.translater :refer :all]
+           [lib.numbers :refer :all]))
 
 
 (defn -main

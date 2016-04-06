@@ -1,7 +1,5 @@
 (ns dna.definitions
-  (require [comm.translater :refer :all])
-
-  )
+    )
 
 (def genes
   {:0000 0
@@ -206,8 +204,9 @@
 
 
 
-;(defn unary [num]
-;  (let x (loop [y num]
-;          (when (> y 1)
-;            (concat x 1)
-;            (recure (- y 1))))))
+(defn unary [num]
+  (for [x (range num)
+        y [1]]
+    (first [y x])
+    )
+  )

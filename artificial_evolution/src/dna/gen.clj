@@ -30,21 +30,27 @@
 
 
 ;;find the gean from gene list using which gene it is
-(defn find-gene []
-  (parse-int (str (rand-key speed)))
-  )
 
+(defn new-gene [id rtn map-list]
+  (for [x map-list]
+    (str id (rand-key rtn x)))
+  )
 (defn new-gean-str [id]
-  (let [x id]
-    (str x (rand-key speed) (rand-key colour))
-    )
+
+    (apply str (str id) (flatten (for [x geans-list
+                          y [rand-key]]
+                      (y list x))))
+
   )
 
 (defn new-gean-list [id]
-  (let [x id]
-    (list x (rand-key speed) (rand-key colour))
-    )
+
+    (concat (list id) (flatten (for [x geans-list
+                           y [rand-key]]
+                       (y list x))))
+
   )
+
 
 (defn sep-gean [gean]
   (split gean #":")

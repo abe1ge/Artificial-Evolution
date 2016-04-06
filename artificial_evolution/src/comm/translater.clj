@@ -1,6 +1,18 @@
 (ns comm.translater
   (require [external.matcher :refer :all]
+           [lib.numbers :refer :all]
+           [lib.maps :refer :all]
+           [dna.definitions :refer :all]
            )
+  (use [clojure.string :only (split)]))
+
+
+(defn fmlogo
+  [mes]
+  (println (rest (split mes #":")))
+  (println (first (rest (split mes #":"))))
+  (println (class(first (rest (split mes #":")))))
+  (println (keyByValue (String->Number (first (rest (split mes #":")))) speed))
   )
 
 

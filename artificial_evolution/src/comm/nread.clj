@@ -1,12 +1,13 @@
 (ns comm.nread
-  (require [comm.wrapper :refer :all]))
+  (require [comm.wrapper :refer :all]
+           [comm.translater :refer :all]))
 
 (defn nlogo-str []
   (str (nlogo-read)))
 
 (defn nread-check [mes]
   (if (not= mes "stop")
-    (do (println mes)
+    (do (fmlogo mes)
         (nlogo-send-exec 1)
         (nread-check (nlogo-str))
         )
