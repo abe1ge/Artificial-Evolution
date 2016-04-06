@@ -1,6 +1,11 @@
 (ns dna.definitions
     )
-
+(defn unary [num]
+  (for [x (range num)
+        y [15]]
+    (first [y x])
+    )
+  )
 (def genes
   {:0000 0
    :0001 1
@@ -19,6 +24,8 @@
    :1110 14
    :1111 15
    })
+
+
 
 (def speed
   {:1 0.0
@@ -204,9 +211,3 @@
 
 
 
-(defn unary [num]
-  (for [x (range num)
-        y [1]]
-    (first [y x])
-    )
-  )

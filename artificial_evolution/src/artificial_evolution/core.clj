@@ -6,7 +6,8 @@
            [comm.nread :refer :all]
            [lib.maps :refer :all]
            [comm.translater :refer :all]
-           [lib.numbers :refer :all]))
+           [lib.numbers :refer :all]
+           [dna.generate :refer :all]))
 
 
 (defn -main

@@ -71,8 +71,6 @@
 (defn nlogo-io-waiting []
   (and shrdlu-comms (socket-input-waiting shrdlu-comms)))
 
-
-
 (defn con-read []
   (let [x (nlogo-read)]
     (while (.equals x "stop")
@@ -80,9 +78,6 @@
       (swap! x (nlogo-read)))
     )
   )
-
-
-
 
 (defn my-fun [b a]
   (a b))
