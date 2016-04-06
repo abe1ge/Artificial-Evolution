@@ -1,4 +1,4 @@
-(ns dna.definitions
+(ns dna.genes
     )
 (defn unary [num]
   (for [x (range num)
@@ -6,7 +6,8 @@
     (first [y x])
     )
   )
-(def genes
+
+(def Transfer-Rna
   {:0000 0
    :0001 1
    :0010 2
@@ -24,8 +25,6 @@
    :1110 14
    :1111 15
    })
-
-
 
 (def speed
   {:1 0.0
