@@ -4,14 +4,8 @@
     <list default="true" id="c126656f-685a-4cf5-8bc6-8187f68c28d5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/artificial_evolution/core.clj" afterPath="$PROJECT_DIR$/src/artificial_evolution/core.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/comm/translater.clj" afterPath="$PROJECT_DIR$/src/comm/translater.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dna/Ribosome.clj" afterPath="$PROJECT_DIR$/src/dna/Ribosome.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dna/gen.clj" afterPath="$PROJECT_DIR$/src/dna/gen.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dna/generate.clj" afterPath="$PROJECT_DIR$/src/dna/generate.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dna/genes.clj" afterPath="$PROJECT_DIR$/src/dna/genes.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dna/transcription.clj" afterPath="$PROJECT_DIR$/src/dna/transcription.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/numbers.clj" afterPath="$PROJECT_DIR$/src/lib/numbers.clj" />
     </list>
     <list id="714c2145-1d17-4ca4-aa66-1c09bfd98ae4" name="Communication between clojure and netlogo is working and is contenious :D" comment="there is a constent comuncation between clojure and netlogo but due to everything happening on one thread, after a certin amount of time we get stack over flow, but this isn't anything to worry about right now. &#10;netlgo need to pass in a gean and extra stuff" />
     <list id="a124ed57-4507-45b8-81f2-8580bf1fbcbf" name="maps namespace" comment="maps namespaces with a function from getting key by value&#10;" />
@@ -45,8 +39,8 @@
           <file leaf-file-name="wrapper.clj" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/comm/wrapper.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+                <state relative-caret-position="210">
+                  <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -65,8 +59,8 @@
           <file leaf-file-name="transcription.clj" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/dna/transcription.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+                <state relative-caret-position="418">
+                  <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -75,23 +69,9 @@
           <file leaf-file-name="Ribosome.clj" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/dna/Ribosome.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="79">
-                  <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="29" selection-end-column="44" />
+                <state relative-caret-position="145">
+                  <caret line="29" column="40" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="40" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="genes.clj" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/dna/genes.clj">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="370">
-                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#695#900#0" expanded="false" />
-                    <element signature="e#902#1136#0" expanded="false" />
-                    <element signature="e#1138#2806#0" expanded="false" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -113,9 +93,23 @@
           <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/artificial_evolution/core.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+                <state relative-caret-position="409">
+                  <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="genes.clj" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/dna/genes.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="346">
+                  <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+                  <folding>
+                    <element signature="e#1199#1404#0" expanded="false" />
+                    <element signature="e#1406#1640#0" expanded="false" />
+                    <element signature="e#1642#3310#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -200,13 +194,13 @@
         <option value="$PROJECT_DIR$/src/dna/genome.clj" />
         <option value="$PROJECT_DIR$/src/dna/RNA_plymerase.clj" />
         <option value="$PROJECT_DIR$/src/lib/numbers.clj" />
-        <option value="$PROJECT_DIR$/src/lib/string.clj" />
         <option value="$PROJECT_DIR$/src/comm/translater.clj" />
         <option value="$PROJECT_DIR$/src/dna/gen.clj" />
         <option value="$PROJECT_DIR$/src/dna/generate.clj" />
         <option value="$PROJECT_DIR$/src/dna/Ribosome.clj" />
-        <option value="$PROJECT_DIR$/src/dna/genes.clj" />
+        <option value="$PROJECT_DIR$/src/lib/string.clj" />
         <option value="$PROJECT_DIR$/src/artificial_evolution/core.clj" />
+        <option value="$PROJECT_DIR$/src/dna/genes.clj" />
         <option value="$PROJECT_DIR$/src/dna/transcription.clj" />
       </list>
     </option>
@@ -386,7 +380,7 @@
       <recent name="C:\Users\Abelether\Documents\03-University\Final Year Project\Github\Artificial-Evolution\artificial_evolution\src\comm" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1460002989689">{:repl-history {:ide [], :local [&quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recur (- y 1))))\n       ))&quot; &quot;(unary 5)&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) \&quot;1\&quot;)\n            (recur (- y 1))))\n       ))&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) \&quot;1\&quot;)\n            (recur (- y 1))))\n       x))&quot; &quot;(unary 4)&quot; &quot;()&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n    (concat x \&quot;1\&quot;)\n       x))&quot; &quot;(defn unary [num]\n  (let [x (concat \&quot;1\&quot; \&quot;1\&quot;)]\n       x))&quot; &quot;(unary 3)&quot; &quot;(defn unary [num]\n  (let [x (concat (loop [y num]\n                    (when (&gt; y num)\n                      x\n                      (recur (- y 1)))))]\n       x))&quot; &quot;(defn unary [num]\n  (let [x (concat (loop [y num]\n                    (when (&gt; y num)\n                      (str x)\n                      (recur (- y 1)))))]\n       x))&quot; &quot;(defn unary [num]\n  (let [x (concat (loop [y num]\n                    (when (&gt; y num)\n                      (concat (str x) \&quot;1\&quot;)\n                      (recur (- y 1)))))]\n       x))&quot; &quot;(defn unary [num]\n  (let [x (loop [y num]\n                    (when (&gt; y num)\n                      (concat (str x) \&quot;1\&quot;)\n                      (recur (- y 1))))]\n       x))&quot; &quot;(hash-map {:0101 2 :0202 2})&quot; &quot;(hash-map :key1 1, key2 2)&quot; &quot;(hash-map :key1 1, :key2 2)&quot; &quot;(merge speed {:22 2.1})&quot; &quot;(require '[clojure.string :as str])&quot; &quot;(str/split \&quot;q1w2e3r4t5y6u7i8o9p0\&quot; #\&quot;\\d+\&quot; 5)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;\\d+\&quot; 4)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;\\d+\&quot; 3)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;1\&quot; 3)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;1\&quot; 4)&quot; &quot;(subs \&quot;101010110101\&quot; 3 6)&quot; &quot;(subs \&quot;101010110101\&quot; 0 4 8)&quot; &quot;(subs \&quot;101010110101\&quot; 0 4 8 9)&quot; &quot;(subs \&quot;101010110101\&quot; 0 4)&quot; &quot;(defn reocur [agentdna]\n  (let [x 3]\n    (+ x 11))\n  )&quot; &quot;(reocur asdfa)&quot; &quot;(reocur )&quot; &quot;(reocur 2)&quot; &quot;(def mydna \&quot;1010100110101001\&quot;)&quot; &quot;(reocur mydna)&quot; &quot;(defn gen-gean [num ]\n  (def mygean1 \&quot;1 \&quot;)\n  (println mygean1)\n  (loop [x num]\n    (when (&gt; x 1)\n      (def mygean1\n        (str mygean1 (rand-int 2))\n        )\n      (recur (- x 1))))\n  )&quot; &quot;(gen-gean 50)&quot; &quot;(ns dna.gen)&quot; &quot;(gen-gean 3)&quot; &quot;(gen-gean 10)&quot; &quot;(mygean1)&quot; &quot;(str-int mygean1)&quot; &quot;mygean1&quot; &quot;(geans-list)&quot; &quot;geans-list&quot; &quot;(new-gean-list 1)&quot; &quot;(speed :19)&quot; &quot;(colour :150)&quot; &quot;(new-gean-str 3)&quot; &quot;(new-gean-str 5)&quot; &quot;(get-gene speed)&quot; &quot;(get-speed speed)&quot; &quot;(startup 2222)&quot; &quot;(startup 2223)&quot; &quot;(fmlogo)&quot; &quot;(parse-int \&quot;0.6\&quot;)&quot; &quot;(nread-check (nlogo-str))&quot; &quot;(/ 16 15)&quot; &quot;(loop [match (re-find matcher) ;loop starts with 2 set arguments\n       result []]\n  (if-not match\n    result\n    (recur (re-find matcher)    ;loop with 2 new arguments\n           (conj result match))))&quot; &quot;(loop [match 15 ;loop starts with 2 set arguments\n       result []]\n  (if-not (&gt; match 3 )\n    result\n    (recur (- match 3)    ;loop with 2 new arguments\n           (conj result match))))&quot; &quot;(loop [match 15 ;loop starts with 2 set arguments\n       result []]\n  (if-not (&gt; match 3 )\n    result\n    (recur (- match 1)    ;loop with 2 new arguments\n           (conj result match))))&quot; &quot;(loop [match (quot (.indexOf (str test-gene) gene-end) 6) ;loop starts with 2 set arguments\n       result []]\n  (if-not (&gt; match 3 )\n    result\n    (recur (- match 1)    ;loop with 2 new arguments\n           (conj result match))))&quot; &quot;(loop [match (quot (.indexOf (str test-gene) gene-end) 6) ;loop starts with 2 set arguments\n       result []]\n  (if-not (&gt; match (quot (.indexOf (str test-gene) gene-start) 6) )\n    result\n    (recur (- match 1)    ;loop with 2 new arguments\n           (conj result match))))&quot; &quot;(loop [match (quot (.indexOf (str test-gene) gene-end) 6) ;loop starts with 2 set arguments\n       result []]\n  (if-not (&gt; match (quot (.indexOf (str test-gene) gene-start) 6) )\n    result\n    (recur (- match 1)    ;loop with 2 new arguments\n           (conj result (nth test-gene match)))))&quot; &quot;(map-list Transfer-Rna (loop [match (quot (.indexOf (str test-gene) gene-end) 6) ;loop starts with 2 set arguments\n       result []]\n  (if-not (&gt; match (quot (.indexOf (str test-gene) gene-start) 6) )\n    result\n    (recur (- match 1)    ;loop with 2 new arguments\n           (conj result (nth test-gene match))))))&quot; &quot;(range 1000)\n(filter #(or (= (rem % 3) 0) (= (rem % 5) 0)))\n(reduce +)&quot; &quot;((range 1000)\n(filter #(or (= (rem % 3) 0) (= (rem % 5) 0)))\n(reduce +))&quot; &quot;(val-gene test-gene)&quot; &quot;(find-geneEnd test-rnaM')&quot; &quot;test-rnaM'&quot; &quot;(apply str test-rnaM')&quot; &quot;test-rnaM&quot; &quot;(find-geneEnd test-rnaM)&quot; &quot;(second (find-geneEnd test-genome)0&quot; &quot;(second (find-geneEnd test-genome))&quot; &quot;(find-geneEnd test-genome)&quot; &quot;(subs test-genome (find-geneEnd test-genome))&quot; &quot;(subs (str test-genome) (find-geneEnd test-genome))&quot; &quot;(find-geneStart test-rnaM)&quot; &quot;(subs (str test-genome) (find-geneStart test-genome))&quot; &quot;(find-geneStart test-genome)&quot; &quot;(str test-genome)&quot; &quot;(.indexOf (str DNA) 4)&quot; &quot;(str gene-start)&quot; &quot;(.indexOf (str test-genome) \&quot;:1100\&quot;)&quot; &quot;(.indexOf (str test-genome) (str gene-start))&quot; &quot;(subs (str test-genome) (.indexOf (str test-genome) (str gene-start)))&quot; &quot;(find-geneStart test-genome gene-start)&quot; &quot;(find-geneEnd test-genome gene-end)&quot; &quot;(map-list Transfer-Rna\n          (loop [match (quot (.indexOf (str RNA) gene-end) 6)\n                 result []]\n            (if-not (&gt; match (quot (.indexOf (str RNA) gene-start) 6) )\n              result\n              (recur (- match 1)    ;loop with 2 new arguments\n                     (conj result (nth RNA match))))))&quot; &quot;(val-gene test-rnaM)&quot; &quot;(map-list Transfer-Rna\n          (loop [match (quot (.indexOf (str test-genome) gene-end) 6)\n                 result []]\n            (if-not (&gt; match (quot (.indexOf (str test-genome) gene-start) 6) )\n              result\n              (recur (- match 1)    ;loop with 2 new arguments\n                     (conj result (nth test-genome match))))))&quot; &quot;(map-list Transfer-Rna\n          (loop [end (quot (.indexOf (str test-genome) gene-end) 6)\n                 result []]\n            (if-not (&gt; end (quot (.indexOf (str test-genome) gene-start) 6) )\n              result\n              (recur (- end 1)    ;loop with 2 new arguments\n                     (conj result (nth test-genome end))))))&quot; &quot;(loop [end (quot (.indexOf (str test-genome) gene-end) 6)\n       result []]\n  (if-not (&gt; end (quot (.indexOf (str test-genome) gene-start) 6) )\n    result\n    (recur (- end 1)    ;loop with 2 new arguments\n           (conj result (nth test-genome end)))))&quot; &quot;(find-key test-genome 11 3)&quot; &quot;(find-key test-genome 2 4)&quot; &quot;(loop [end1 11\n       result []]\n  (if-not (&gt; end1 4)\n    result\n    (recur (- end1 1)    ;loop with 2 new arguments\n           (conj result (nth test-genome end)))))&quot; &quot;(loop [end1 11\n       result []]\n  (if-not (&gt; end1 4)\n    result\n    (recur (- end1 1)    ;loop with 2 new arguments\n           (conj result (nth test-genome end1)))))&quot; &quot;(find-key test-genome 4 5)&quot; &quot;(find-key test-genome 4 6)&quot; &quot;(find-key test-genome 4 11)&quot; &quot;(val-gen test-genome 4 11)&quot; &quot;(val-gene test-genome 4 11)&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1460030457972">{:repl-history {:ide [], :local [&quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) 1)\n            (recur (- y 1))))\n       ))&quot; &quot;(unary 5)&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) \&quot;1\&quot;)\n            (recur (- y 1))))\n       ))&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n       (loop [y num]\n          (when (&gt; y 1)\n            (concat (str x) \&quot;1\&quot;)\n            (recur (- y 1))))\n       x))&quot; &quot;(unary 4)&quot; &quot;()&quot; &quot;(defn unary [num]\n  (let [x \&quot;1\&quot;]\n    (concat x \&quot;1\&quot;)\n       x))&quot; &quot;(defn unary [num]\n  (let [x (concat \&quot;1\&quot; \&quot;1\&quot;)]\n       x))&quot; &quot;(unary 3)&quot; &quot;(defn unary [num]\n  (let [x (concat (loop [y num]\n                    (when (&gt; y num)\n                      x\n                      (recur (- y 1)))))]\n       x))&quot; &quot;(defn unary [num]\n  (let [x (concat (loop [y num]\n                    (when (&gt; y num)\n                      (str x)\n                      (recur (- y 1)))))]\n       x))&quot; &quot;(defn unary [num]\n  (let [x (concat (loop [y num]\n                    (when (&gt; y num)\n                      (concat (str x) \&quot;1\&quot;)\n                      (recur (- y 1)))))]\n       x))&quot; &quot;(defn unary [num]\n  (let [x (loop [y num]\n                    (when (&gt; y num)\n                      (concat (str x) \&quot;1\&quot;)\n                      (recur (- y 1))))]\n       x))&quot; &quot;(hash-map {:0101 2 :0202 2})&quot; &quot;(hash-map :key1 1, key2 2)&quot; &quot;(hash-map :key1 1, :key2 2)&quot; &quot;(merge speed {:22 2.1})&quot; &quot;(require '[clojure.string :as str])&quot; &quot;(str/split \&quot;q1w2e3r4t5y6u7i8o9p0\&quot; #\&quot;\\d+\&quot; 5)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;\\d+\&quot; 4)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;\\d+\&quot; 3)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;1\&quot; 3)&quot; &quot;(str/split \&quot;3242342123123123\&quot; #\&quot;1\&quot; 4)&quot; &quot;(subs \&quot;101010110101\&quot; 3 6)&quot; &quot;(subs \&quot;101010110101\&quot; 0 4 8)&quot; &quot;(subs \&quot;101010110101\&quot; 0 4 8 9)&quot; &quot;(subs \&quot;101010110101\&quot; 0 4)&quot; &quot;(defn reocur [agentdna]\n  (let [x 3]\n    (+ x 11))\n  )&quot; &quot;(reocur asdfa)&quot; &quot;(reocur )&quot; &quot;(reocur 2)&quot; &quot;(def mydna \&quot;1010100110101001\&quot;)&quot; &quot;(reocur mydna)&quot; &quot;(defn gen-gean [num ]\n  (def mygean1 \&quot;1 \&quot;)\n  (println mygean1)\n  (loop [x num]\n    (when (&gt; x 1)\n      (def mygean1\n        (str mygean1 (rand-int 2))\n        )\n      (recur (- x 1))))\n  )&quot; &quot;(gen-gean 50)&quot; &quot;(ns dna.gen)&quot; &quot;(gen-gean 3)&quot; &quot;(gen-gean 10)&quot; &quot;(mygean1)&quot; &quot;(str-int mygean1)&quot; &quot;mygean1&quot; &quot;(geans-list)&quot; &quot;geans-list&quot; &quot;(new-gean-list 1)&quot; &quot;(speed :19)&quot; &quot;(colour :150)&quot; &quot;(new-gean-str 3)&quot; &quot;(new-gean-str 5)&quot; &quot;(get-gene speed)&quot; &quot;(get-speed speed)&quot; &quot;(startup 2222)&quot; &quot;(startup 2223)&quot; &quot;(fmlogo)&quot; &quot;(parse-int \&quot;0.6\&quot;)&quot; &quot;(nread-check (nlogo-str))&quot; &quot;(/ 16 15)&quot; &quot;(loop [match (re-find matcher) ;loop starts with 2 set arguments\n       result []]\n  (if-not match\n    result\n    (recur (re-find matcher)    ;loop with 2 new arguments\n           (conj result match))))&quot; &quot;(loop [match 15 ;loop starts with 2 set arguments\n       result []]\n  (if-not (&gt; match 3 )\n    result\n    (recur (- match 3)    ;loop with 2 new arguments\n           (conj result match))))&quot; &quot;(loop [match 15 ;loop starts with 2 set arguments\n       result []]\n  (if-not (&gt; match 3 )\n    result\n    (recur (- match 1)    ;loop with 2 new arguments\n           (conj result match))))&quot; &quot;(loop [match (quot (.indexOf (str test-gene) gene-end) 6) ;loop starts with 2 set arguments\n       result []]\n  (if-not (&gt; match 3 )\n    result\n    (recur (- match 1)    ;loop with 2 new arguments\n           (conj result match))))&quot; &quot;(loop [match (quot (.indexOf (str test-gene) gene-end) 6) ;loop starts with 2 set arguments\n       result []]\n  (if-not (&gt; match (quot (.indexOf (str test-gene) gene-start) 6) )\n    result\n    (recur (- match 1)    ;loop with 2 new arguments\n           (conj result match))))&quot; &quot;(loop [match (quot (.indexOf (str test-gene) gene-end) 6) ;loop starts with 2 set arguments\n       result []]\n  (if-not (&gt; match (quot (.indexOf (str test-gene) gene-start) 6) )\n    result\n    (recur (- match 1)    ;loop with 2 new arguments\n           (conj result (nth test-gene match)))))&quot; &quot;(map-list Transfer-Rna (loop [match (quot (.indexOf (str test-gene) gene-end) 6) ;loop starts with 2 set arguments\n       result []]\n  (if-not (&gt; match (quot (.indexOf (str test-gene) gene-start) 6) )\n    result\n    (recur (- match 1)    ;loop with 2 new arguments\n           (conj result (nth test-gene match))))))&quot; &quot;(range 1000)\n(filter #(or (= (rem % 3) 0) (= (rem % 5) 0)))\n(reduce +)&quot; &quot;((range 1000)\n(filter #(or (= (rem % 3) 0) (= (rem % 5) 0)))\n(reduce +))&quot; &quot;(val-gene test-gene)&quot; &quot;(find-geneEnd test-rnaM')&quot; &quot;test-rnaM'&quot; &quot;(apply str test-rnaM')&quot; &quot;test-rnaM&quot; &quot;(find-geneEnd test-rnaM)&quot; &quot;(second (find-geneEnd test-genome)0&quot; &quot;(second (find-geneEnd test-genome))&quot; &quot;(find-geneEnd test-genome)&quot; &quot;(subs test-genome (find-geneEnd test-genome))&quot; &quot;(subs (str test-genome) (find-geneEnd test-genome))&quot; &quot;(find-geneStart test-rnaM)&quot; &quot;(subs (str test-genome) (find-geneStart test-genome))&quot; &quot;(find-geneStart test-genome)&quot; &quot;(str test-genome)&quot; &quot;(.indexOf (str DNA) 4)&quot; &quot;(str gene-start)&quot; &quot;(.indexOf (str test-genome) \&quot;:1100\&quot;)&quot; &quot;(.indexOf (str test-genome) (str gene-start))&quot; &quot;(subs (str test-genome) (.indexOf (str test-genome) (str gene-start)))&quot; &quot;(find-geneStart test-genome gene-start)&quot; &quot;(find-geneEnd test-genome gene-end)&quot; &quot;(map-list Transfer-Rna\n          (loop [match (quot (.indexOf (str RNA) gene-end) 6)\n                 result []]\n            (if-not (&gt; match (quot (.indexOf (str RNA) gene-start) 6) )\n              result\n              (recur (- match 1)    ;loop with 2 new arguments\n                     (conj result (nth RNA match))))))&quot; &quot;(val-gene test-rnaM)&quot; &quot;(map-list Transfer-Rna\n          (loop [match (quot (.indexOf (str test-genome) gene-end) 6)\n                 result []]\n            (if-not (&gt; match (quot (.indexOf (str test-genome) gene-start) 6) )\n              result\n              (recur (- match 1)    ;loop with 2 new arguments\n                     (conj result (nth test-genome match))))))&quot; &quot;(map-list Transfer-Rna\n          (loop [end (quot (.indexOf (str test-genome) gene-end) 6)\n                 result []]\n            (if-not (&gt; end (quot (.indexOf (str test-genome) gene-start) 6) )\n              result\n              (recur (- end 1)    ;loop with 2 new arguments\n                     (conj result (nth test-genome end))))))&quot; &quot;(loop [end (quot (.indexOf (str test-genome) gene-end) 6)\n       result []]\n  (if-not (&gt; end (quot (.indexOf (str test-genome) gene-start) 6) )\n    result\n    (recur (- end 1)    ;loop with 2 new arguments\n           (conj result (nth test-genome end)))))&quot; &quot;(find-key test-genome 11 3)&quot; &quot;(find-key test-genome 2 4)&quot; &quot;(loop [end1 11\n       result []]\n  (if-not (&gt; end1 4)\n    result\n    (recur (- end1 1)    ;loop with 2 new arguments\n           (conj result (nth test-genome end)))))&quot; &quot;(loop [end1 11\n       result []]\n  (if-not (&gt; end1 4)\n    result\n    (recur (- end1 1)    ;loop with 2 new arguments\n           (conj result (nth test-genome end1)))))&quot; &quot;(find-key test-genome 4 5)&quot; &quot;(find-key test-genome 4 6)&quot; &quot;(find-key test-genome 4 11)&quot; &quot;(val-gen test-genome 4 11)&quot; &quot;(val-gene test-genome 4 11)&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.REPL">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -717,7 +711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1459977703983</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="can now get first gene out of DNA">
+      <created>1460003019421</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1460003019421</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -740,8 +741,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4665127" sideWeight="0.5716586" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41271678" sideWeight="0.5840043" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41271678" sideWeight="0.41599572" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34335262" sideWeight="0.5856146" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34335262" sideWeight="0.4143854" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34295613" sideWeight="0.41867954" order="10" side_tool="false" content_ui="tabs" />
@@ -779,7 +780,8 @@
     <MESSAGE value="comit and change" />
     <MESSAGE value="can now generate genes" />
     <MESSAGE value="approprite naming of namespaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="approprite naming of namespaces" />
+    <MESSAGE value="can now get first gene out of DNA" />
+    <option name="LAST_COMMIT_MESSAGE" value="can now get first gene out of DNA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -816,9 +818,9 @@
         <state relative-caret-position="22">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#695#900#0" expanded="false" />
-            <element signature="e#902#1136#0" expanded="false" />
-            <element signature="e#1138#2806#0" expanded="false" />
+            <element signature="e#1199#1404#0" expanded="false" />
+            <element signature="e#1406#1640#0" expanded="false" />
+            <element signature="e#1642#3310#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -863,9 +865,9 @@
         <state relative-caret-position="22">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#695#900#0" expanded="false" />
-            <element signature="e#902#1136#0" expanded="false" />
-            <element signature="e#1138#2806#0" expanded="false" />
+            <element signature="e#1199#1404#0" expanded="false" />
+            <element signature="e#1406#1640#0" expanded="false" />
+            <element signature="e#1642#3310#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -910,9 +912,9 @@
         <state relative-caret-position="22">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#695#900#0" expanded="false" />
-            <element signature="e#902#1136#0" expanded="false" />
-            <element signature="e#1138#2806#0" expanded="false" />
+            <element signature="e#1199#1404#0" expanded="false" />
+            <element signature="e#1406#1640#0" expanded="false" />
+            <element signature="e#1642#3310#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -957,9 +959,9 @@
         <state relative-caret-position="22">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#695#900#0" expanded="false" />
-            <element signature="e#902#1136#0" expanded="false" />
-            <element signature="e#1138#2806#0" expanded="false" />
+            <element signature="e#1199#1404#0" expanded="false" />
+            <element signature="e#1406#1640#0" expanded="false" />
+            <element signature="e#1642#3310#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -993,9 +995,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#695#900#0" expanded="false" />
-            <element signature="e#902#1136#0" expanded="false" />
-            <element signature="e#1138#2806#0" expanded="false" />
+            <element signature="e#1199#1404#0" expanded="false" />
+            <element signature="e#1406#1640#0" expanded="false" />
+            <element signature="e#1642#3310#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1123,14 +1125,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comm/wrapper.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/comm/nread.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1143,14 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/string.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1205,37 +1191,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dna/genes.clj">
+    <entry file="file://$PROJECT_DIR$/src/lib/string.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#695#900#0" expanded="false" />
-            <element signature="e#902#1136#0" expanded="false" />
-            <element signature="e#1138#2806#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dna/Ribosome.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="145">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comm/wrapper.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dna/genes.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#1199#1404#0" expanded="false" />
+            <element signature="e#1406#1640#0" expanded="false" />
+            <element signature="e#1642#3310#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dna/transcription.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/artificial_evolution/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dna/transcription.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="409">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
