@@ -2,12 +2,14 @@
   (:gen-class)
   (require [comm.wrapper :refer :all]
            [dna.gen :refer :all]
-           [dna.definitions :refer :all]
+           [dna.genes :refer :all]
            [comm.nread :refer :all]
            [lib.maps :refer :all]
            [comm.translater :refer :all]
            [lib.numbers :refer :all]
-           [dna.generate :refer :all]))
+           [dna.generate :refer :all]
+           [dna.Ribosome :refer :all]
+           [dna.transcription :refer :all]))
 
 
 (defn -main

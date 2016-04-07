@@ -1,15 +1,40 @@
 (ns dna.transcription
-  (require [dna.definitions :refer :all]))
+  (require [dna.genes :refer :all]))
 
 ;;RNA plymerase... find the gene and extract it
 
-(def mydna "1010100110101001")
 
-(defn reocur [agentdna]
-  (let [x 3]
-    (+ x 11))
+(defn find-geneEnd
+
+  [DNA]
+  (.indexOf (str DNA) (str gene-end))
   )
 
+(defn find-geneStart
+
+  [DNA]
+  (.indexOf (str DNA) (str gene-start))
+  )
+
+;(defn restrest [DNA]
+;
+;  (loop [end ()
+;         result []]
+;    (if-not (> end1 start)
+;      result
+;      (recur (- end1 1)    ;loop with 2 new arguments
+;             (conj result (nth DNA end1)))))
+;  )
+
+
+(defn dna-ranM
+  "takes RNA and returns
+  the start and end index of first gene"
+  [DNA]
+
+  (vector (find-geneStart DNA)
+  (find-geneEnd DNA))
+  )
 
 ;;this outputs messenger RNA
 

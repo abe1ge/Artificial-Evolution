@@ -2,7 +2,7 @@
   (require [external.matcher :refer :all]
            [lib.numbers :refer :all]
            [lib.maps :refer :all]
-           [dna.definitions :refer :all]
+           [dna.genes :refer :all]
            )
   (use [clojure.string :only (split)]))
 

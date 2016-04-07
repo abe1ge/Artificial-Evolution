@@ -1,5 +1,5 @@
 (ns dna.gen
-  (require [dna.definitions :refer :all]
+  (require [dna.genes :refer :all]
            [lib.numbers :refer :all]
            [lib.maps :refer :all]
            )

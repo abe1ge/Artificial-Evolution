@@ -1,4 +1,6 @@
-(ns dna.Ribosome)
+(ns dna.Ribosome
+  (require [lib.maps :refer :all]
+           [dna.genes :refer :all]))
 ;;reads messenger RNA outputed by transcription
 ;;and produces a phenome (in real life this is a gene
 ;;but that process is unessessory when working on binary
@@ -13,3 +15,25 @@
 ;;will make the code more complex and dificult to understand
 ;;therofre the whole genome is going to be interpreted
 ;;and it is going to output the wole genome
+
+
+(defn find-key
+  "this returns the keys giving
+  the start and ending  index
+  because it is recursive it returns it backwords"
+  [DNA start end]
+  (loop [end1 end
+         result []]
+    (if-not (> end1 start)
+      result
+      (recur (- end1 1)    ;loop with 2 new arguments
+             (conj result (nth DNA end1)))))
+  )
+
+(defn val-gene
+  "this takes RNA DNA"
+  [RNA start end]
+  (reduce + (map-list Transfer-Rna
+                      (find-key RNA start end)
+                      ))
+  )
