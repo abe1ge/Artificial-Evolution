@@ -44,8 +44,11 @@
   (parse-int (str (rand-key list map)))
   )
 
-(defn map-list [map list]
-  (flatten (for [x [map]
-                 y list]
-             (x y)))
+(defn map-list
+  "takes a vector and a hashmap
+  and maps everything to the hashmap"
+  [map vec]
+   (for [x [map]
+                 y vec]
+             (x y))
   )

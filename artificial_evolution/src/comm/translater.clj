@@ -7,14 +7,14 @@
   (use [clojure.string :only (split)]))
 
 
+
 (defn fmlogo
   [mes]
-  (println (rest (split mes #":")))
-  (println (first (rest (split mes #":"))))
-  (println (class(first (rest (split mes #":")))))
-  (println (keyByValue (String->Number (first (rest (split mes #":")))) speed))
+  (println (first (rest (split mes #"dna"))))
+  ;(println (first (rest (split mes #":"))))
+;  (println (class(first (rest (split mes #":")))))
+;  (println (keyByValue (String->Number (first (rest (split mes #":")))) speed))
   )
-
 
 
 (let [
@@ -30,8 +30,8 @@
             ((create ?nam )
               :=> (str 'exec.make (str-qt (? nam)) sp (str-qt(axis-no (? nam)))  ))
 
-            ((to-nlogo  ?id ?num1 ?num2 )
-              :=> (str 'setup-rabbits1 sp (? id) sp (? num1) sp (? num2) ))
+            ((to-nlogo  ?id ?num1 ?num2 ?num3)
+              :=> (str 'setup-rabbits1 sp (? id) sp (? num1) sp (? num2) sp (str-qt(? num3)) ))
 
             ))
 

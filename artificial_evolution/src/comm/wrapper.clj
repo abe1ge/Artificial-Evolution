@@ -5,7 +5,12 @@
            [clojure.string :as str]
            [clojure.pprint :refer :all]
            [external.matcher :refer :all]
-           ))
+           [dna.generate :refer :all]
+           [lib.numbers :refer :all]
+           [dna.genes :refer :all]
+           )
+  (use [clojure.string :only (split)])
+  )
 
 (import '(java.net ServerSocket Socket SocketException)
         '(java.io InputStreamReader OutputStreamWriter)
@@ -82,15 +87,51 @@
 (defn my-fun [b a]
   (a b))
 
+(defn dnavalue
+  "returns dna with its value"
+  [gene]
+  (concat (list (first gene))
+     (doall (map my-fun geans-list (rest gene)))
+          (rest gene)
+          )
+  )
+
+(defn getDna [gene]
+
+    (map gen-gene
+         (map parse-int
+              (rest (split (apply str gene) #":"))))
+
+
+  )
+
+(defn fullDna [dna]
+  (apply str (flatten (let [dna (getDna dna)]
+             (for [x dna
+                   y '(:0000:0000:0000:0000)
+                   z '(:0101:0000:0101:0000)]
+               (flatten [y x z (rand-gene)])
+               )
+             )))
+  )
+
 (defn translate [list-gean]
-  (let [x (nth list-gean 0) y (rest list-gean)]
-    (nlogo-translate-cmd (concat '(to-nlogo)(list x) (doall (map my-fun geans-list y))))
+  (let [x (first list-gean)
+        y (rest list-gean)]
+    (nlogo-translate-cmd
+      (concat
+        '(to-nlogo)
+        (list x)
+        (doall (map my-fun geans-list y))
+        (list (fullDna y))
+        )
+      )
     ))
 
 (defn crt-rabbits [int1]
   (loop [x int1]
     (when (> x 0)
-      (println x)
+      ;(println x)
       (nlogo-send (translate (new-gean-list x)))
       (recur (- x 1))))
   )

@@ -1,5 +1,7 @@
 (ns dna.transcription
-  (require [dna.genes :refer :all]))
+  (require [dna.genes :refer :all]
+           [lib.maps :refer :all])
+  (use [clojure.string :only (split)]))
 
 ;;RNA plymerase... find the gene and extract it
 
@@ -78,3 +80,26 @@
     [(z (first x) 0 (y (first x)))]
     )
   )
+
+(defn split-genomes []
+  (for [x (genomes)
+        ]
+     (split (first x) #" ")
+    ))
+
+(defn val-exess []
+  (for [x (split-genomes)
+        ]
+    (reduce + (rest (for [y x
+          ]
+      (Transfer-Rna (keyword (subs y 1)))
+      )))
+    ))
+
+
+
+
+
+
+
+

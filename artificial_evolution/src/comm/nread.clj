@@ -9,6 +9,7 @@
   (if (not= mes "stop")
     (do (fmlogo mes)
         (nlogo-send-exec 1)
+        ;(println mes)
         (nread-check (nlogo-str))
         )
     (println "I am stoping" mes)

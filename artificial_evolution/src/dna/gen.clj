@@ -31,25 +31,31 @@
 
 ;;find the gean from gene list using which gene it is
 
-(defn new-gene [id rtn map-list]
-  (for [x map-list]
-    (str id (rand-key rtn x)))
-  )
+;(defn new-gene [id rtn map-list]
+;  (for [x map-list]
+;    (str id (rand-key rtn x)))
+;  )
+
+
 (defn new-gean-str [id]
 
     (apply str (str id) (flatten (for [x geans-list
                           y [rand-key]]
                       (y list x))))
-
   )
 
 (defn new-gean-list [id]
 
-    (concat (list id) (flatten (for [x geans-list
-                           y [rand-key]]
-                       (y list x))))
-
+  (concat (list id)
+          (flatten
+            (for [x geans-list
+                  y [rand-key]]
+              (y list x))
+            )
+          )
   )
+
+(defn createDNA [id])
 
 
 (defn sep-gean [gean]

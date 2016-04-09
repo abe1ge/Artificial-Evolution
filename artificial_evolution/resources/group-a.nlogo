@@ -77,9 +77,9 @@ end
 
 breed [rabbits rabbit]
 
-rabbits-own [id energy age max-age speed energy-given eats]
+rabbits-own [id energy age max-age speed energy-given eats dna]
 
-to setup-rabbits1 [#id #speed #color]
+to setup-rabbits1 [#id #speed #color #dna]
   create-rabbits 1
   [
     set id #id
@@ -91,6 +91,7 @@ to setup-rabbits1 [#id #speed #color]
     set age 0
     set energy 150
     set speed #speed
+    set dna #dna
   ]
 end
 
@@ -234,7 +235,7 @@ to car-crash
       [
         output-print (word "Clojure Sent: ""id: "id " speed: " speed " color: "color)
         output-print (word id ":" speed ":"color)
-      exec.repl2 (word "\""id ":" speed ":"color"\"")
+      exec.repl2 (word "\""id ":" speed ":"color ": "dna"\"")
       set num-new-agent (num-new-agent + 1)
       die
       ]
@@ -420,7 +421,7 @@ num-of-rabbits
 num-of-rabbits
 0
 500
-0
+18
 1
 1
 NIL
