@@ -7,7 +7,7 @@
         lenth (rand-int (.length dna))
         val (.charAt dna lenth)
         istr (= (.charAt dna lenth) \: )]
-    (println (.charAt dna lenth))
+
     (if istr
       (mutate Dna)
       (str (subs dna 0 lenth)

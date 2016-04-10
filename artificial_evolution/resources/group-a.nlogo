@@ -235,7 +235,7 @@ to car-crash
       [
         output-print (word "Clojure Sent: ""id: "id " speed: " speed " color: "color)
         output-print (word id ":" speed ":"color)
-      exec.repl2 (word "\""id ":" speed ":"color ": "dna"\"")
+      exec.repl2 (word "\""id ":" speed ":"color ": dna"dna"\"")
       set num-new-agent (num-new-agent + 1)
       die
       ]
@@ -264,7 +264,7 @@ end
 to exec.repl
   let cmd-str sock2:read
   output-print (word "received: " cmd-str)
-  if ((word cmd-str) != "<null>")
+  if (((word cmd-str) != "<null>") and ((word cmd-str) != "nil"))
   [
   run cmd-str
   ]
@@ -421,7 +421,7 @@ num-of-rabbits
 num-of-rabbits
 0
 500
-18
+41
 1
 1
 NIL
@@ -476,7 +476,7 @@ true
 false
 "" ""
 PENS
-"default" 1.0 0 -10649926 true "" "plot count rabbits"
+"default" 1.0 0 -10649926 true "" "plot (20 * mean [speed] of rabbits)"
 
 SLIDER
 5

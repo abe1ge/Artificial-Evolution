@@ -3,6 +3,8 @@
            [lib.numbers :refer :all]
            [lib.maps :refer :all]
            [dna.genes :refer :all]
+           [evolve.mutation :refer :all]
+           [dna.transcription :refer :all]
            )
   (use [clojure.string :only (split)]))
 
@@ -10,7 +12,20 @@
 
 (defn fmlogo
   [mes]
-  (println (first (rest (split mes #"dna"))))
+
+  (println (first (split mes #"dna")))
+
+  (if (empty? (first (rest (split mes #"dna"))))
+    "no dna"
+  (println (let [agent mes
+                 dna (first (rest (split agent #"dna")))
+                 mutated (mutate dna)
+                 ]
+             (println  (val-exess (first (rest (split agent #"dna")))))
+             (val-exess (str mutated ":0101:0000"))
+             )))
+ ; (println (mutate (str (first (rest (split mes #"dna"))))))
+  ;(println (mutate (first (rest (split mes #"dna")))))
   ;(println (first (rest (split mes #":"))))
 ;  (println (class(first (rest (split mes #":")))))
 ;  (println (keyByValue (String->Number (first (rest (split mes #":")))) speed))

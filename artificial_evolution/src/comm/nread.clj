@@ -1,15 +1,18 @@
 (ns comm.nread
   (require [comm.wrapper :refer :all]
-           [comm.translater :refer :all]))
+           [comm.translater :refer :all]
+           [comm.nwrite :refer :all]))
 
 (defn nlogo-str []
   (str (nlogo-read)))
 
 (defn nread-check [mes]
   (if (not= mes "stop")
-    (do (fmlogo mes)
-        (nlogo-send-exec 1)
-        ;(println mes)
+    (do (println "start")
+        ;(fmlogo mes)
+      ;  (nlogo-send-exec 1)
+        (nlogo-send-chage mes)
+        (println "end")
         (nread-check (nlogo-str))
         )
     (println "I am stoping" mes)

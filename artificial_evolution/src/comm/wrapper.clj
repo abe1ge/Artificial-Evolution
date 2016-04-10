@@ -108,8 +108,8 @@
 (defn fullDna [dna]
   (apply str (flatten (let [dna (getDna dna)]
              (for [x dna
-                   y '(:0000:0000:0000:0000)
-                   z '(:0101:0000:0101:0000)]
+                   y '(:0000:0000)
+                   z '(:0101:0000)]
                (flatten [y x z (rand-gene)])
                )
              )))
@@ -128,13 +128,15 @@
       )
     ))
 
+
 (defn crt-rabbits [int1]
   (loop [x int1]
     (when (> x 0)
-      ;(println x)
+      (println x)
       (nlogo-send (translate (new-gean-list x)))
       (recur (- x 1))))
   )
+
 (defn nlogo-send-exec [times]
   (nlogo-send (str "finrepl " times))
   (crt-rabbits times)

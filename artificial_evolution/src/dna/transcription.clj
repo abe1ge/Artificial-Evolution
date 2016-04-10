@@ -9,13 +9,17 @@
 (defn find-geneEnd
 
   [DNA]
-  (.indexOf (str DNA) (str gene-end))
+  (.indexOf (str DNA) ":0101:0000")
   )
 
 (defn find-geneStart
-
   [DNA]
-  (.indexOf (str DNA) (str gene-start))
+  (.indexOf (str DNA) ":0000:0000")
+  )
+
+(defn find-geneStart2
+  [DNA]
+  (.indexOf (apply str DNA) ":0000:0000")
   )
 
 ;(defn restrest [DNA]
@@ -71,9 +75,9 @@
       ))
   )
 
-(defn genomes []
+(defn genomes [Dna2]
   ;(first (first (reststr test-rnaM)))
-  (for [x (reststr test-rnaM)
+  (for [x (reststr Dna2)
         y [find-geneEnd]
         z [subs]
         ]
@@ -81,18 +85,18 @@
     )
   )
 
-(defn split-genomes []
-  (for [x (genomes)
+(defn split-genomes [Dna]
+  (for [x (genomes Dna)
         ]
-     (split (first x) #" ")
+     (split (first x) #":")
     ))
 
-(defn val-exess []
-  (for [x (split-genomes)
+(defn val-exess [Dna]
+  (for [x (split-genomes Dna)
         ]
     (reduce + (rest (for [y x
           ]
-      (Transfer-Rna (keyword (subs y 1)))
+      (Transfer-Rna (keyword y))
       )))
     ))
 
