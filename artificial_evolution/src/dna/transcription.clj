@@ -100,6 +100,22 @@
       )))
     ))
 
+(defn val-exess1 [dna]
+  (let [x (val-exess dna)]
+    (do (println (apply str "value = " x))
+    (if (= (count x) 2)
+        x
+        (if (= (count x) 1)
+          (do (println (apply str "value plus 2"(concat x '(2))))
+          (concat x '(2)))
+
+          (do (println (apply str "value plus 2 and 3 "(concat x '(2 3))))
+          (concat x '(2 3)))
+          )
+    ))
+
+  ))
+
 
 
 

@@ -76,7 +76,9 @@
 (defn nlogo-io-waiting []
   (and shrdlu-comms (socket-input-waiting shrdlu-comms)))
 
-(defn con-read []
+(defn con-read
+  "read from netlogo till told stop"
+  []
   (let [x (nlogo-read)]
     (while (.equals x "stop")
       (println x)
@@ -84,11 +86,13 @@
     )
   )
 
-(defn my-fun [b a]
+(defn my-fun
+  "takes two arguments and run one as function on the toher"
+  [b a]
   (a b))
 
 (defn dnavalue
-  "returns dna with its value"
+  "01 returns dna with its value"
   [gene]
   (concat (list (first gene))
      (doall (map my-fun geans-list (rest gene)))
@@ -101,11 +105,10 @@
     (map gen-gene
          (map parse-int
               (rest (split (apply str gene) #":"))))
-
-
   )
 
 (defn fullDna [dna]
+  "gets a random gene and apply gene start and end"
   (apply str (flatten (let [dna (getDna dna)]
              (for [x dna
                    y '(:0000:0000)
@@ -116,50 +119,42 @@
   )
 
 (defn translate [list-gean]
+  "gets dna > gets all value for gene,
+  combines values with dna
+  ready to be sent to nlogo"
   (let [x (first list-gean)
         y (rest list-gean)]
-    (nlogo-translate-cmd
+    (nlogo-translate-cmd  ;translate dna for nlogo
       (concat
         '(to-nlogo)
         (list x)
         (doall (map my-fun geans-list y))
-        (list (fullDna y))
+        (list (fullDna y))  ;;attach full dna at the end
         )
       )
     ))
 
 
 (defn crt-rabbits [int1]
+  "creaes a set number of rabbits"
   (loop [x int1]
     (when (> x 0)
       (println x)
-      (nlogo-send (translate (new-gean-list x)))
+      (nlogo-send (translate (new-gean-list x))) ;;creates a new gene and translate it
       (recur (- x 1))))
   )
 
-(defn nlogo-send-exec [times]
-  (nlogo-send (str "finrepl " times))
+(defn nlogo-send-exec
+  "creates a number of rabbits and allow nelogo to set
+  them all up"
+  [times]
+  (nlogo-send (str "finrepl " times)) ;tell nlogo to run thme
   (crt-rabbits times)
   )
 
 
-(defn concat-all [coll]
-  (join " " coll))
 
 
-(defn n-logosend1
-  [results]
-
-  (nlogo-send '(startup))
-  (def one (count [:cmds results]))
-  (def two "finrepl")
-  (prn (count (:cmds results)))
-  (nlogo-send (list two one))
-  ()
-  (doall (map nlogo-send-exec (:cmds results)))
-  (:cmds  results)
-
-  )
 
 
 

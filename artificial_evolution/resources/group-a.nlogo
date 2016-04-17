@@ -126,6 +126,8 @@ to go
     stop
   ]        ;; stop when no turtles
 
+  if (count turtles = 1)
+  [setup-rabbits ]
   show-turtle-details
   show-patches-details
 
@@ -174,9 +176,16 @@ end
 to move-turtles
   ask turtles
   [
-    set energy energy - (speed * 2)
+    set energy energy - energy-loss
     eat-food
-
+    if (energy < 0)
+    [
+      output-print (word "Clojure Sent: ""id: "id " speed: " speed " color: "color)
+      output-print (word id ":" speed ":"color)
+      exec.repl2 (word "\""id ":" speed ":"color ": dna"dna"\"")
+      set num-new-agent (num-new-agent + 1)
+      die
+    ]
     set age age + 1
 
   ]
@@ -188,9 +197,6 @@ to move-rabbits
     wiggle
     car-crash
     forward speed
-   ; attracted-road
-    ;; first input is probability to reproduce
-    ;; second input is energy required to give birth
   ;  reproduce 50  3
   ]
 end
@@ -213,16 +219,6 @@ to reproduce [ a c]
       [
         hatch c [rt random-float 360 fd 1 set age 0 set energy random 100]
       ]
-    ]
-  ]
-end
-
-to attracted-road
-  ask self
-  [
-    if random 100 < road-attraction and count (neighbors with [pcolor = road-color]) >= 2
-    [
-      face nearest-of road
     ]
   ]
 end
@@ -266,7 +262,9 @@ to exec.repl
   output-print (word "received: " cmd-str)
   if (((word cmd-str) != "<null>") and ((word cmd-str) != "nil"))
   [
+
   run cmd-str
+
   ]
 end
 
@@ -421,7 +419,7 @@ num-of-rabbits
 num-of-rabbits
 0
 500
-41
+49
 1
 1
 NIL
@@ -487,7 +485,7 @@ energy-from-grass
 energy-from-grass
 1.5
 8.2
-3.2
+1.5
 0.1
 1
 NIL
@@ -502,7 +500,7 @@ birth-energy%
 birth-energy%
 45
 100
-79
+83
 1
 1
 NIL
@@ -528,7 +526,7 @@ regrow-grass%
 regrow-grass%
 0
 100
-15
+30
 1
 1
 NIL
@@ -570,28 +568,13 @@ death-probability
 NIL
 HORIZONTAL
 
-SLIDER
-8
-326
-180
-359
-road-attraction
-road-attraction
-0
-35
-33
-1
-1
-NIL
-HORIZONTAL
-
 INPUTBOX
 952
 12
 1019
 72
 port-num
-2222
+2223
 1
 0
 Number
@@ -636,6 +619,21 @@ OUTPUT
 1281
 524
 11
+
+SLIDER
+9
+329
+181
+362
+energy-loss
+energy-loss
+0
+5
+1.2
+0.2
+1
+NIL
+HORIZONTAL
 
 @#$#@#$#@
 ## WHAT IS IT?

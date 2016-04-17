@@ -18,7 +18,10 @@
   [& args]
   ;(println (speed :0010))
 
-  (println (translate (new-gean-list 3)))
+  (startup 2222)
+
+  (nread-check (nlogo-str))
+
   ;(gen-gean 12)
   ;(println mygean1)
   ;(println (str-int mygean1))

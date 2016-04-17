@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c126656f-685a-4cf5-8bc6-8187f68c28d5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Artificial_evolution.docx" afterPath="$PROJECT_DIR$/doc/Artificial_evolution.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/group-a.nlogo" afterPath="$PROJECT_DIR$/resources/group-a.nlogo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/artificial_evolution/core.clj" afterPath="$PROJECT_DIR$/src/artificial_evolution/core.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/comm/nread.clj" afterPath="$PROJECT_DIR$/src/comm/nread.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/comm/nwrite.clj" afterPath="$PROJECT_DIR$/src/comm/nwrite.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/comm/translater.clj" afterPath="$PROJECT_DIR$/src/comm/translater.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/comm/wrapper.clj" afterPath="$PROJECT_DIR$/src/comm/wrapper.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dna/genes.clj" afterPath="$PROJECT_DIR$/src/dna/genes.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dna/transcription.clj" afterPath="$PROJECT_DIR$/src/dna/transcription.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/evolve/mutation.clj" afterPath="$PROJECT_DIR$/src/evolve/mutation.clj" />
     </list>
@@ -40,25 +41,37 @@
     <favorites_list name="artificial_evolution" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7386469">
+    <splitter split-orientation="horizontal" split-proportion="0.5868853">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="gen.clj" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/dna/gen.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1144">
-                  <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+                <state relative-caret-position="453">
+                  <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="transcription.clj" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/dna/transcription.clj">
+          <file leaf-file-name="switchover.clj" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/evolve/switchover.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1496">
-                  <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="genes.clj" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/dna/genes.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="96">
+                  <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+                  <folding>
+                    <element signature="e#162#1170#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -66,8 +79,18 @@
           <file leaf-file-name="nread.clj" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/comm/nread.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+                <state relative-caret-position="241">
+                  <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="agents.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/agents/agents.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="276">
+                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -76,8 +99,38 @@
           <file leaf-file-name="wrapper.clj" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/comm/wrapper.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2838">
-                  <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+                <state relative-caret-position="299">
+                  <caret line="142" column="37" selection-start-line="142" selection-start-column="37" selection-end-line="142" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="nwrite.clj" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/comm/nwrite.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="836">
+                  <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mutation.clj" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/evolve/mutation.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="440">
+                  <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Ribosome.clj" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/dna/Ribosome.clj">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="473">
+                  <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -86,18 +139,8 @@
           <file leaf-file-name="translater.clj" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/comm/translater.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1078">
-                  <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="nwrite.clj" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/comm/nwrite.clj">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="528">
-                  <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+                <state relative-caret-position="880">
+                  <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -110,8 +153,8 @@
           <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/artificial_evolution/core.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="689">
-                  <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+                <state relative-caret-position="179">
+                  <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -167,13 +210,13 @@
         <option value="$PROJECT_DIR$/src/lib/maps.clj" />
         <option value="$PROJECT_DIR$/src/dna/gen.clj" />
         <option value="$PROJECT_DIR$/src/dna/genes.clj" />
-        <option value="$PROJECT_DIR$/src/dna/transcription.clj" />
-        <option value="$PROJECT_DIR$/src/evolve/mutation.clj" />
-        <option value="$PROJECT_DIR$/src/comm/nread.clj" />
-        <option value="$PROJECT_DIR$/src/artificial_evolution/core.clj" />
         <option value="$PROJECT_DIR$/src/comm/translater.clj" />
+        <option value="$PROJECT_DIR$/src/artificial_evolution/core.clj" />
         <option value="$PROJECT_DIR$/src/comm/wrapper.clj" />
+        <option value="$PROJECT_DIR$/src/evolve/mutation.clj" />
+        <option value="$PROJECT_DIR$/src/dna/transcription.clj" />
         <option value="$PROJECT_DIR$/src/comm/nwrite.clj" />
+        <option value="$PROJECT_DIR$/src/comm/nread.clj" />
       </list>
     </option>
   </component>
@@ -353,6 +396,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artificial_evolution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artificial_evolution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agents" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artificial_evolution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artificial_evolution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -363,14 +438,14 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Experments/helpme" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Abelether\Documents\03-University\Final Year Project\Github\Artificial-Evolution\artificial_evolution\src\comm" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1460251545094">{:repl-history {:ide [], :local [&quot;(str (last (first (key-genomes))))&quot; &quot;(class (split-genomes))&quot; &quot;(split-genomes)&quot; &quot;(new-gene 10)&quot; &quot;(gen-gene 11)&quot; &quot;(doall (map gen-gene (rest gene)))&quot; &quot;(gen-gean 10)&quot; &quot;(gen-gean 90)&quot; &quot;(for [x (vec (gene num))\n      y [Transfer-Rna]]\n  (keyByValue x y))&quot; &quot;(gen-gene 10)&quot; &quot;(doall (map gen-gene (rest (new-gean-list 1))))&quot; &quot;(gen-gene 9)&quot; &quot;(gen-gene 100)&quot; &quot;(rest (gen-gene 100))&quot; &quot;(map gen-gene (rest (new-gean-list 1)))&quot; &quot;(rest (new-gean-list))&quot; &quot;(keyByValue 10 Transfer-Rna)&quot; &quot;(Transfer-Rna :1010)&quot; &quot;(map list (rest (new-gean-list 1)))&quot; &quot;(map Transfer-Rna (rest (new-gean-list 1)))&quot; &quot;(rest (new-gean-list 1))&quot; &quot;(str (rest (new-gean-list 1)))&quot; &quot;(apply str (rest (new-gean-list 1)))&quot; &quot;(use '[clojure.string :only (split)])&quot; &quot;(split (apply str (rest (new-gean-list 1))) #\&quot;:\&quot;)&quot; &quot;(rest (split (apply str (rest (new-gean-list 1))) #\&quot;:\&quot;))&quot; &quot;(map gen-gene (rest (split (apply str (rest (new-gean-list 1))) #\&quot;:\&quot;)))&quot; &quot;(map parse-int (rest (split (apply str (rest (new-gean-list 1))) #\&quot;:\&quot;)))&quot; &quot;(map gen-gene (map parse-int (rest (split (apply str (rest (new-gean-list 1))) #\&quot;:\&quot;))))&quot; &quot;(class gen-gene)&quot; &quot;(getDna (rest (new-gean-list 1)))&quot; &quot;(split gene-start #\&quot;:\&quot;)&quot; &quot;(rest (split gene-start #\&quot;:\&quot;))&quot; &quot;(let [gene (rest (new-gean-list 3))]\n  (map gen-gene\n       (map parse-int\n            (rest (split (apply str gene) #\&quot;:\&quot;)))))&quot; &quot;(let [gene (rest (new-gean-list 3))]\n  (concat\n    gene-start\n    (map gen-gene\n         (map parse-int\n              (rest (split (apply str gene) #\&quot;:\&quot;))))\n    gene-end\n    )\n  )&quot; &quot;(let [gene (rest (new-gean-list 3))]\n  (concat\n    '(:0000 :0000 :0000 :0000)\n    (map gen-gene\n         (map parse-int\n              (rest (split (apply str gene) #\&quot;:\&quot;))))\n    '(:1010 :0000 :1010 :0000)\n    )\n  )&quot; &quot;(let [gene (rest (new-gean-list 3))]\n    (map gen-gene\n         (map parse-int\n              (rest (split (apply str gene) #\&quot;:\&quot;))))\n  )&quot; &quot;(getDna (rest new-gean-list 3))&quot; &quot;(getDna (rest (new-gean-list 3)))&quot; &quot;(let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    [y x z]\n    )\n  )&quot; &quot;(let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    (flatten y x z)\n    )\n  )&quot; &quot;(let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    (flatten [y x z])\n    )\n  )&quot; &quot;(rand-gene)&quot; &quot;(let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    (flatten [y x z (rand-gene)])\n    )\n  )&quot; &quot;(str (flatten (let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    (flatten [y x z (rand-gene)])\n    )\n  )))&quot; &quot;(apply str (flatten (let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    (flatten [y x z (rand-gene)])\n    )\n  )))&quot; &quot;(flatten (let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    (flatten [y x z (rand-gene)])\n    )\n  ))&quot; &quot;(fullDna (rest (new-gean-list 5)))&quot; &quot;(let [a (new-gean-list 3)\n      x (first a)\n      y (rest a)]\n  (nlogo-translate-cmd\n    (concat\n      '(to-nlogo)\n      (list x)\n      (doall (map my-fun geans-list y))\n      )\n    )\n  )&quot; &quot;(fullDna (rest (new-gean-list 3)))&quot; &quot;gene-start&quot; &quot;gene-end&quot; &quot;(translate (new-gean-list 3))&quot; &quot;(crt-rabbits)&quot; &quot;(crt-rabbits 1)&quot; &quot;(crt-rabbits 5)&quot; &quot;(fmlogo (\&quot;asdf324r23 : 2£: 2£: 23: \&quot;))&quot; &quot;(fmlogo \&quot;1:1.9:138: dna :0000:0000:0000:0000:1111:0101:0101:0000:0101:0000:1111:1111:1111:1111:1101:0000:0000:0000:0000:1111:1111:1111:1111:1111:1111:1111:1111:1111:1111:0010:0101:0000:0101:0000:1111:1111:1111:1111:1111:1111:0001\&quot;)&quot; &quot;(nread-check (nlogo-str))&quot; &quot;(nread-check (str \&quot;helo\&quot;))&quot; &quot;(nread-check \&quot;asdfa\&quot;)&quot; &quot;(nread-check \&quot;stop\&quot;)&quot; &quot;(nread-check \&quot;st23423\&quot;)&quot; &quot;(nlogo-str \&quot;hello\&quot;)&quot; &quot;(nlogo-read)&quot; &quot;(nlogo-io-waiting)&quot; &quot;(startup 2222)&quot; &quot;(new-gean-list 2)&quot; &quot;(nread-check \&quot;hello\&quot;)&quot; &quot;asdf&quot; &quot;3&quot; &quot;(def a (to-array-2d [[1 2 3][4 5 6]]))&quot; &quot;(aget a 0)&quot; &quot;(aget a 0 0)&quot; &quot;(aget a 0 2)&quot; &quot;(aget a 1 0)&quot; &quot;(aget a 1 3)&quot; &quot;(aget a 1 2)&quot; &quot;(def a (to-array-2d [[8 10 12][4 5 6]]))&quot; &quot;(aget 0 1)&quot; &quot;(aget a 0 0 )&quot; &quot;(pprint (make-array Integer/TYPE 2 3))&quot; &quot;(pprint (make-array Integer/TYPE 3 3))&quot; &quot;(pprint (make-array Integer/TYPE 3 4))&quot; &quot;(pprint (make-array Integer/TYPE 4 4))&quot; &quot;(pprint (make-array Integer/TYPE 4 4 2))&quot; &quot;(def 4Da(make-array Integer/TYPE 4 4 2))&quot; &quot;(def 3(make-array Integer/TYPE 4 4 2))&quot; &quot;(def helo (make-array Integer/TYPE 4 4 2))&quot; &quot;helo&quot; &quot;(def 0 0 0)&quot; &quot;(aget helo 0 0 0 )&quot; &quot;(aget helo 0 0 1)&quot; &quot;(pprint helo)&quot; &quot;(inc helo)&quot; &quot;(first helo)&quot; &quot;(first (first helo))&quot; &quot;(+ (first (first helo)) 3)&quot; &quot;(str (first (first helo)) 3)&quot; &quot;(apply str (first (first helo)) 3)&quot; &quot;(apply list first (first helo)) 3)&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1460662242411">{:repl-history {:ide [], :local [&quot;(split-genomes)&quot; &quot;(new-gene 10)&quot; &quot;(gen-gene 11)&quot; &quot;(doall (map gen-gene (rest gene)))&quot; &quot;(gen-gean 10)&quot; &quot;(gen-gean 90)&quot; &quot;(for [x (vec (gene num))\n      y [Transfer-Rna]]\n  (keyByValue x y))&quot; &quot;(gen-gene 10)&quot; &quot;(doall (map gen-gene (rest (new-gean-list 1))))&quot; &quot;(gen-gene 9)&quot; &quot;(gen-gene 100)&quot; &quot;(rest (gen-gene 100))&quot; &quot;(map gen-gene (rest (new-gean-list 1)))&quot; &quot;(rest (new-gean-list))&quot; &quot;(keyByValue 10 Transfer-Rna)&quot; &quot;(Transfer-Rna :1010)&quot; &quot;(map list (rest (new-gean-list 1)))&quot; &quot;(map Transfer-Rna (rest (new-gean-list 1)))&quot; &quot;(rest (new-gean-list 1))&quot; &quot;(str (rest (new-gean-list 1)))&quot; &quot;(apply str (rest (new-gean-list 1)))&quot; &quot;(use '[clojure.string :only (split)])&quot; &quot;(split (apply str (rest (new-gean-list 1))) #\&quot;:\&quot;)&quot; &quot;(rest (split (apply str (rest (new-gean-list 1))) #\&quot;:\&quot;))&quot; &quot;(map gen-gene (rest (split (apply str (rest (new-gean-list 1))) #\&quot;:\&quot;)))&quot; &quot;(map parse-int (rest (split (apply str (rest (new-gean-list 1))) #\&quot;:\&quot;)))&quot; &quot;(map gen-gene (map parse-int (rest (split (apply str (rest (new-gean-list 1))) #\&quot;:\&quot;))))&quot; &quot;(class gen-gene)&quot; &quot;(getDna (rest (new-gean-list 1)))&quot; &quot;(split gene-start #\&quot;:\&quot;)&quot; &quot;(rest (split gene-start #\&quot;:\&quot;))&quot; &quot;(let [gene (rest (new-gean-list 3))]\n  (map gen-gene\n       (map parse-int\n            (rest (split (apply str gene) #\&quot;:\&quot;)))))&quot; &quot;(let [gene (rest (new-gean-list 3))]\n  (concat\n    gene-start\n    (map gen-gene\n         (map parse-int\n              (rest (split (apply str gene) #\&quot;:\&quot;))))\n    gene-end\n    )\n  )&quot; &quot;(let [gene (rest (new-gean-list 3))]\n  (concat\n    '(:0000 :0000 :0000 :0000)\n    (map gen-gene\n         (map parse-int\n              (rest (split (apply str gene) #\&quot;:\&quot;))))\n    '(:1010 :0000 :1010 :0000)\n    )\n  )&quot; &quot;(let [gene (rest (new-gean-list 3))]\n    (map gen-gene\n         (map parse-int\n              (rest (split (apply str gene) #\&quot;:\&quot;))))\n  )&quot; &quot;(getDna (rest new-gean-list 3))&quot; &quot;(getDna (rest (new-gean-list 3)))&quot; &quot;(let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    [y x z]\n    )\n  )&quot; &quot;(let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    (flatten y x z)\n    )\n  )&quot; &quot;(let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    (flatten [y x z])\n    )\n  )&quot; &quot;(rand-gene)&quot; &quot;(let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    (flatten [y x z (rand-gene)])\n    )\n  )&quot; &quot;(str (flatten (let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    (flatten [y x z (rand-gene)])\n    )\n  )))&quot; &quot;(apply str (flatten (let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    (flatten [y x z (rand-gene)])\n    )\n  )))&quot; &quot;(flatten (let [dna (getDna (rest (new-gean-list 3)))]\n  (for [x dna y '(:0000) z '(:11000011)]\n    (flatten [y x z (rand-gene)])\n    )\n  ))&quot; &quot;(fullDna (rest (new-gean-list 5)))&quot; &quot;(let [a (new-gean-list 3)\n      x (first a)\n      y (rest a)]\n  (nlogo-translate-cmd\n    (concat\n      '(to-nlogo)\n      (list x)\n      (doall (map my-fun geans-list y))\n      )\n    )\n  )&quot; &quot;(fullDna (rest (new-gean-list 3)))&quot; &quot;gene-start&quot; &quot;gene-end&quot; &quot;(translate (new-gean-list 3))&quot; &quot;(crt-rabbits)&quot; &quot;(crt-rabbits 1)&quot; &quot;(crt-rabbits 5)&quot; &quot;(fmlogo (\&quot;asdf324r23 : 2£: 2£: 23: \&quot;))&quot; &quot;(fmlogo \&quot;1:1.9:138: dna :0000:0000:0000:0000:1111:0101:0101:0000:0101:0000:1111:1111:1111:1111:1101:0000:0000:0000:0000:1111:1111:1111:1111:1111:1111:1111:1111:1111:1111:0010:0101:0000:0101:0000:1111:1111:1111:1111:1111:1111:0001\&quot;)&quot; &quot;(nread-check (str \&quot;helo\&quot;))&quot; &quot;(nread-check \&quot;asdfa\&quot;)&quot; &quot;(nread-check \&quot;stop\&quot;)&quot; &quot;(nread-check \&quot;st23423\&quot;)&quot; &quot;(nlogo-str \&quot;hello\&quot;)&quot; &quot;(nlogo-read)&quot; &quot;(nlogo-io-waiting)&quot; &quot;(new-gean-list 2)&quot; &quot;(nread-check \&quot;hello\&quot;)&quot; &quot;asdf&quot; &quot;3&quot; &quot;(def a (to-array-2d [[1 2 3][4 5 6]]))&quot; &quot;(aget a 0)&quot; &quot;(aget a 0 0)&quot; &quot;(aget a 0 2)&quot; &quot;(aget a 1 0)&quot; &quot;(aget a 1 3)&quot; &quot;(aget a 1 2)&quot; &quot;(def a (to-array-2d [[8 10 12][4 5 6]]))&quot; &quot;(aget 0 1)&quot; &quot;(aget a 0 0 )&quot; &quot;(pprint (make-array Integer/TYPE 2 3))&quot; &quot;(pprint (make-array Integer/TYPE 3 3))&quot; &quot;(pprint (make-array Integer/TYPE 3 4))&quot; &quot;(pprint (make-array Integer/TYPE 4 4))&quot; &quot;(pprint (make-array Integer/TYPE 4 4 2))&quot; &quot;(def 4Da(make-array Integer/TYPE 4 4 2))&quot; &quot;(def 3(make-array Integer/TYPE 4 4 2))&quot; &quot;(def helo (make-array Integer/TYPE 4 4 2))&quot; &quot;helo&quot; &quot;(def 0 0 0)&quot; &quot;(aget helo 0 0 0 )&quot; &quot;(aget helo 0 0 1)&quot; &quot;(pprint helo)&quot; &quot;(inc helo)&quot; &quot;(first helo)&quot; &quot;(first (first helo))&quot; &quot;(+ (first (first helo)) 3)&quot; &quot;(str (first (first helo)) 3)&quot; &quot;(apply str (first (first helo)) 3)&quot; &quot;(apply list first (first helo)) 3)&quot; &quot;(count '(1 2 3))&quot; &quot;(startup 2222)&quot; &quot;(startup 2223)&quot; &quot;(nread-check (nlogo-str))&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.REPL">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -722,7 +797,14 @@
       <option name="project" value="LOCAL" />
       <updated>1460172381827</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="finished">
+      <created>1460261181495</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1460261181495</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -739,30 +821,30 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.49812132" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814372" sideWeight="0.4904498" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.49812132" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4665127" sideWeight="0.5716586" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22598523" sideWeight="0.5555556" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37644342" sideWeight="0.40778798" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8025404" sideWeight="0.41867954" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4665127" sideWeight="0.5716586" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30635837" sideWeight="0.57004833" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35953757" sideWeight="0.51422435" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30635837" sideWeight="0.4299517" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18133047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21148685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33410406" sideWeight="0.44444445" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33410406" sideWeight="0.44444445" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.49812132" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -787,11 +869,12 @@
     <MESSAGE value="can now get first gene out of DNA" />
     <MESSAGE value="transcription almost working" />
     <MESSAGE value="Mutate is working, Almost finished :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mutate is working, Almost finished :)" />
+    <MESSAGE value="finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1032,37 +1115,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/agents/agents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/external/matcher.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="190" column="0" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/mapping.clj" />
     <entry file="file://$PROJECT_DIR$/src/dna/RNA_plymerase.clj" />
-    <entry file="file://$PROJECT_DIR$/src/evolve/switchover.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/numbers.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1070,35 +1124,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dna/Ribosome.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dna/genome.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dna/generate.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dna/genes.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/evolve/mutation.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -1112,6 +1138,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/numbers.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/maps.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1120,58 +1154,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dna/gen.clj">
+    <entry file="file://$PROJECT_DIR$/src/dna/generate.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1144">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        <state relative-caret-position="316">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comm/translater.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/external/matcher.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="423" column="0" selection-start-line="423" selection-start-column="0" selection-end-line="423" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dna/transcription.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+        <state relative-caret-position="396">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comm/nwrite.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agents/agents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comm/wrapper.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2838">
-          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/comm/translater.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="299">
+          <caret line="142" column="37" selection-start-line="142" selection-start-column="37" selection-end-line="142" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/comm/nread.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="241">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dna/genes.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#162#1170#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/artificial_evolution/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="179">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comm/nwrite.clj">
+    <entry file="file://$PROJECT_DIR$/src/dna/gen.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="453">
+          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/evolve/switchover.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/evolve/mutation.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dna/Ribosome.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -8,12 +8,7 @@
   (use [clojure.string :only (split)]))
 
 
-(defn nlogo-send-chage [mes]
-  (do
-    (nlogo-send (str "finrepl " 1))
-    (mutated-nlogo mes)
-    )
-  )
+
 
 (defn mutated-nlogo
   "sending mutated gene back to nlogo"
@@ -44,8 +39,19 @@
                                       y [keyword]
                                       ]
                                   (y (str x))
-                                  ))))
-            ;   (println (second updated))
+                                  ))))   ))  )
+
+(defn nlogo-send-chage
+
+  [mes]
+    (do
+      (nlogo-send (str "finrepl " 1))
+      (mutated-nlogo mes)
+      (println (count mes)))
+
+  )
+
+;   (println (second updated))
               ; (println-str "translate finished")
                ;(let [keyed (map keyword (map str (val-exess (str mutated ":0101:0000"))))
                ;      ;dna (conj id keyed)
@@ -57,11 +63,10 @@
 
               ; (val-exess (str mutated ":0101:0000"))
 
-               ))
+
   ; (println (mutate (str (first (rest (split mes #"dna"))))))
   ;(println (mutate (first (rest (split mes #"dna")))))
   ;(println (first (rest (split mes #":"))))
   ;  (println (class(first (rest (split mes #":")))))
   ;  (println (keyByValue (String->Number (first (rest (split mes #":")))) speed))
-  )
 
